@@ -5,4 +5,14 @@ layout: default
   <p>
   Hi.  I'm working on setting up Jekyll.  I think I am going to like it.
   </p>
+  <ul class="entries">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">
+      <img src="{{ post.image }}" />
+      <h3>{{ post.title }}</h3>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
 </section>

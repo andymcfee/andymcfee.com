@@ -2,56 +2,66 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/css\/_inuit.css\/objects\/_stats.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_stats.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_stats.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/plugins.js" : {
+    "\/_site\/2012\/03\/29\/front-end-web-conferences-and-what-not-2012.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/plugins-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_site\/2012\/03\/29\/front-end-web-conferences-and-what-not-2012.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/css\/_inuit.css\/base\/_lists.scss" : {
+    "\/_attachments\/2011-04-26-red-eclipse.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_lists.scss",
+      "inputAbbreviatedPath" : "\/_attachments\/2011-04-26-red-eclipse.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/2012\/08\/24\/css3-flip-cards.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/2012\/08\/24\/css3-flip-cards.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/base\/_forms.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_forms.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_lists.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_forms.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/objects\/_matrix.scss" : {
+    "\/_site\/server\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_matrix.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_matrix.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_site\/server\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/_posts\/2012-07-19-failed-the-test-got-the-job.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-07-19-failed-the-test-got-the-job.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/_inuit.css\/objects\/_block-list.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_block-list.scss",
@@ -61,120 +71,98 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/index.html" : {
+    "\/_posts\/2012-05-04-evil-web-design.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
+      "inputAbbreviatedPath" : "\/_posts\/2012-05-04-evil-web-design.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/_inuit.css\/objects\/_icon-text.scss" : {
+    "\/_attachments\/2012-04-03-icons-good.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_icon-text.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_icon-text.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/generic\/_mixins.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_mixins.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_mixins.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/objects\/_grids.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_grids.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_grids.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/objects\/_flyout.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_flyout.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_flyout.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/objects\/_sprite.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_sprite.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_sprite.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_site\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/index.html",
+      "inputAbbreviatedPath" : "\/_attachments\/2012-04-03-icons-good.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/_inuit.css\/objects\/_options.scss" : {
+    "\/css\/_inuit.css\/objects\/_island.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_options.scss",
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_island.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_options.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_island.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/css\/style.css" : {
+    "\/_pages\/2011-04-26-myportfolio.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/css\/style.css",
+      "inputAbbreviatedPath" : "\/_pages\/2011-04-26-myportfolio.html",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
-    "\/css\/_inuit.css\/objects\/_link-complex.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/_site\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_link-complex.scss",
+      "inputAbbreviatedPath" : "\/_site\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
+      "fileType" : 64
+    },
+    "\/_posts\/2012-08-03-the-designerdeveloper-conundrum.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-08-03-the-designerdeveloper-conundrum.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_posts\/2012-05-01-css3-toggle-switch-a-ui-alternative-to-checkboxes.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-05-01-css3-toggle-switch-a-ui-alternative-to-checkboxes.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_nav_menu_items\/2011-04-26-54.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_nav_menu_items\/2011-04-26-54.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/base\/_links.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_links.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_link-complex.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_links.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
     "\/css\/_inuit.css\/generic\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_normalize.scss",
@@ -184,145 +172,25 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/base\/_tables.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/_site\/js\/plugins.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_tables.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_tables.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_site\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/js\/plugins-ck.js",
+      "fileType" : 64
     },
-    "\/css\/_inuit.css\/objects\/_pagination.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_pagination.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_pagination.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/objects\/_columns.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_columns.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_columns.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/objects\/_nav.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_nav.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_nav.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/generic\/_clearfix.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_clearfix.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_clearfix.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_layouts\/default.html" : {
+    "\/_attachments\/2011-06-02-phone-pad-design-2.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/default.html",
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-phone-pad-design-2.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/css\/_inuit.css\/generic\/_widths.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_widths.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_widths.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/generic\/_shared.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_shared.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_shared.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_site\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
-      "fileType" : 64
-    },
-    "\/css\/_inuit.css\/base\/_smallprint.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_smallprint.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_smallprint.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/objects\/_greybox.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_greybox.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_greybox.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_style.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_style.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/js\/vendor\/jquery-1.9.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -335,127 +203,241 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.9.1.min-ck.js",
       "fileType" : 64
     },
-    "\/_site\/js\/plugins.js" : {
+    "\/css\/_style.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/css\/_style.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/style.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/objects\/_nav.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/plugins.js",
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_nav.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_nav.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_site\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/2012\/05\/01\/css3-toggle-switch-a-ui-alternative-to-checkboxes.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/2012\/05\/01\/css3-toggle-switch-a-ui-alternative-to-checkboxes.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_posts\/2012-03-29-front-end-web-conferences-and-what-not-2012.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-03-29-front-end-web-conferences-and-what-not-2012.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/generic\/_reset.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_reset.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_reset.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/generic\/_clearfix.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_clearfix.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_clearfix.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/base\/_lists.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_lists.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_lists.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/objects\/_columns.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_columns.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_columns.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_attachments\/2011-06-02-phone-pad-design.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-phone-pad-design.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/css\/_inuit.css\/objects\/_grids.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_grids.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_grids.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/server\/js\/vendor\/jquery-1.9.1.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/server\/js\/vendor\/jquery-1.9.1.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/js\/plugins-ck.js",
+      "outputAbbreviatedPath" : "\/server\/js\/vendor\/jquery-1.9.1.min-ck.js",
       "fileType" : 64
     },
-    "\/css\/_inuit.css\/base\/_paragraphs.scss" : {
+    "\/_posts\/2012-08-16-responsive-design-and-ux-tips.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_paragraphs.scss",
+      "inputAbbreviatedPath" : "\/_posts\/2012-08-16-responsive-design-and-ux-tips.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/2012\/07\/19\/failed-the-test-got-the-job.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/2012\/07\/19\/failed-the-test-got-the-job.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_attachments\/2011-06-02-teledini-setup-guide.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-teledini-setup-guide.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/base\/_tables.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_tables.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_paragraphs.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_tables.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/base\/_forms.scss" : {
+    "\/server\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_forms.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_forms.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/objects\/_rules.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_rules.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_rules.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/base\/_headings.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_headings.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_headings.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/base\/_images.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_images.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_images.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/generic\/_debug.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_debug.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_debug.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/base\/_quotes.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_quotes.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_quotes.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/objects\/_island.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_island.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_island.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_site\/js\/main.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/main.js",
+      "inputAbbreviatedPath" : "\/server\/js\/main.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/js\/main-ck.js",
+      "outputAbbreviatedPath" : "\/server\/js\/main-ck.js",
       "fileType" : 64
+    },
+    "\/_posts\/2012-05-11-icon-fonts.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-05-11-icon-fonts.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_attachments\/2011-04-26-teldini-logo-reflect.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-04-26-teldini-logo-reflect.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/objects\/_options.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_options.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_options.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/objects\/_arrows.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_arrows.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_arrows.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/_inuit.css\/generic\/_push.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_push.scss",
@@ -467,7 +449,7 @@
     },
     "\/css\/_inuit.css\/base\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_main.scss",
@@ -477,93 +459,69 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/objects\/_batch.scss" : {
+    "\/css\/_inuit.css\/objects\/_lozenges.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_batch.scss",
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_lozenges.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_batch.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_lozenges.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/objects\/_split.scss" : {
+    "\/_attachments\/2011-06-02-loanbolt-logo-design.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_split.scss",
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-loanbolt-logo-design.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/objects\/_sprite.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_sprite.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_split.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_sprite.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/objects\/_breadcrumb.scss" : {
+    "\/_attachments\/2012-04-03-icons-bad.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_breadcrumb.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_breadcrumb.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_attachments\/2012-04-03-icons-bad.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/css\/_inuit.css\/generic\/_reset.scss" : {
+    "\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_reset.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_reset.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/css\/_inuit.css\/generic\/_pull.scss" : {
+    "\/_attachments\/2011-04-26-teledinipluginsplashpage.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_pull.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_pull.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/generic\/_helper.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_helper.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_helper.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_inuit.css\/objects\/_this-or-this.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_this-or-this.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_this-or-this.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_attachments\/2011-04-26-teledinipluginsplashpage.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/_inuit.css\/_inuit.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/_inuit.css\/_inuit.scss",
@@ -573,39 +531,269 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/objects\/_arrows.scss" : {
+    "\/_attachments\/2011-06-02-call-type-icons.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_arrows.scss",
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-call-type-icons.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_attachments\/2011-06-02-ux-design-whiteboard.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-ux-design-whiteboard.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/objects\/_flyout.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_flyout.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_arrows.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_flyout.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/base\/_code.scss" : {
+    "\/css\/_inuit.css\/generic\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_code.scss",
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_mixins.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_code.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/objects\/_flexbox.scss" : {
+    "\/_attachments\/2011-06-02-textiles-ui.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-textiles-ui.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/server\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/server\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/plugins.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/plugins-ck.js",
+      "fileType" : 64
+    },
+    "\/css\/_inuit.css\/base\/_paragraphs.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_paragraphs.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_paragraphs.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/base\/_headings.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_headings.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_headings.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_site\/js\/vendor\/jquery-1.9.1.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/js\/vendor\/jquery-1.9.1.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/js\/vendor\/jquery-1.9.1.min-ck.js",
+      "fileType" : 64
+    },
+    "\/css\/_inuit.css\/objects\/_icon-text.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_icon-text.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_icon-text.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/generic\/_brand.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_brand.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_brand.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/generic\/_widths.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_widths.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_widths.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_attachments\/2011-06-02-loanbolt-early-mockup.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-loanbolt-early-mockup.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/2012\/08\/03\/the-designerdeveloper-conundrum.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/2012\/08\/03\/the-designerdeveloper-conundrum.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_nav_menu_items\/2011-04-26-home.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_nav_menu_items\/2011-04-26-home.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/server\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/server\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_posts\/2012-08-24-css3-flip-cards.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-08-24-css3-flip-cards.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/js\/main.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/js\/main.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/js\/main-ck.js",
+      "fileType" : 64
+    },
+    "\/_site\/server\/js\/plugins.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/server\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/server\/js\/plugins-ck.js",
+      "fileType" : 64
+    },
+    "\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_flexbox.scss",
+      "inputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/css\/_inuit.css\/base\/_smallprint.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_smallprint.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_flexbox.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_smallprint.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/objects\/_buttons.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_buttons.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_buttons.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/objects\/_link-complex.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_link-complex.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_link-complex.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/generic\/_debug.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_debug.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_debug.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -620,9 +808,91 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
       "fileType" : 64
     },
+    "\/_posts\/2012-03-28-css3-slider-or-something.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-03-28-css3-slider-or-something.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/objects\/_stats.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_stats.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_stats.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_site\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
+      "fileType" : 64
+    },
+    "\/_attachments\/2011-06-02-ui-teledini-full.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-ui-teledini-full.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/generic\/_shared.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_shared.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_shared.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_site\/2012\/08\/16\/responsive-design-and-ux-tips.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/2012\/08\/16\/responsive-design-and-ux-tips.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/server\/js\/plugins.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/server\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/server\/js\/plugins-ck.js",
+      "fileType" : 64
+    },
+    "\/server\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/server\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/css\/_inuit.css\/objects\/_media.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_media.scss",
@@ -632,21 +902,44 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/generic\/_brand.scss" : {
+    "\/css\/_inuit.css\/objects\/_flexbox.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_brand.scss",
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_flexbox.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_brand.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_flexbox.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/css\/_inuit.css\/objects\/_matrix.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_matrix.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_matrix.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_site\/server\/js\/vendor\/jquery-1.9.1.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/server\/js\/vendor\/jquery-1.9.1.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/server\/js\/vendor\/jquery-1.9.1.min-ck.js",
+      "fileType" : 64
+    },
     "\/css\/_vars.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/_vars.scss",
@@ -656,41 +949,109 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/objects\/_marginalia.scss" : {
+    "\/_layouts\/default.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_marginalia.scss",
+      "inputAbbreviatedPath" : "\/_layouts\/default.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/objects\/_this-or-this.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_this-or-this.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_marginalia.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_this-or-this.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/objects\/_buttons.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/_site\/server\/js\/main.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_buttons.scss",
+      "inputAbbreviatedPath" : "\/_site\/server\/js\/main.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/_site\/server\/js\/main-ck.js",
+      "fileType" : 64
+    },
+    "\/css\/_inuit.css\/objects\/_split.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_split.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_buttons.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_split.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/objects\/_lozenges.scss" : {
+    "\/css\/_inuit.css\/generic\/_helper.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_lozenges.scss",
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_helper.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_lozenges.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_helper.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_attachments\/2011-06-02-ui-design-whiteboard.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-ui-design-whiteboard.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/2012\/04\/04\/icon-fonts-pseudo-elements-and-ie8.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/2012\/04\/04\/icon-fonts-pseudo-elements-and-ie8.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_attachments\/2011-06-02-blog-logo-comps.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-blog-logo-comps.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/base\/_code.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_code.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_code.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_posts\/2012-04-04-icon-fonts-pseudo-elements-and-ie8.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-04-04-icon-fonts-pseudo-elements-and-ie8.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
@@ -703,35 +1064,176 @@
       "outputAbbreviatedPath" : "\/js\/main-ck.js",
       "fileType" : 64
     },
-    "\/_site\/js\/vendor\/jquery-1.9.1.min.js" : {
+    "\/css\/_inuit.css\/objects\/_greybox.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/vendor\/jquery-1.9.1.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/js\/vendor\/jquery-1.9.1.min-ck.js",
-      "fileType" : 64
-    },
-    "\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/css\/_inuit.css\/base\/_links.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_links.scss",
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_greybox.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_links.css",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_greybox.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
+      "fileType" : 64
+    },
+    "\/css\/_inuit.css\/objects\/_pagination.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_pagination.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_pagination.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/objects\/_rules.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_rules.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_rules.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_site\/2012\/05\/04\/evil-web-design.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/2012\/05\/04\/evil-web-design.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_pages\/2011-04-26-sample-page.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_pages\/2011-04-26-sample-page.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_posts\/2012-04-05-login-form-design.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-04-05-login-form-design.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/base\/_images.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_images.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_images.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/objects\/_batch.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_batch.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_batch.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/objects\/_marginalia.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_marginalia.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_marginalia.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_attachments\/2011-06-02-ui-teledini-full-2.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-ui-teledini-full-2.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/generic\/_pull.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_pull.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_pull.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/base\/_quotes.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/base\/_quotes.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_quotes.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_site\/2012\/04\/05\/login-form-design.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/2012\/04\/05\/login-form-design.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_attachments\/2012-04-05-login-form.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2012-04-05-login-form.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/objects\/_breadcrumb.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_breadcrumb.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_breadcrumb.css",
       "fileType" : 4,
       "debugStyle" : 0
     }
