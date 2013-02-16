@@ -3,7 +3,7 @@ baseurl:    /
 
 pygments:    true
 permalink:   /blog/:year/:month/:title/
-paginate:    5
-paginate_file: posts.html
+#paginate:    5
+#paginate_file: posts.html
 
 exclude: README.md
