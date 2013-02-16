@@ -2,30 +2,12 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/_site\/2012\/03\/29\/front-end-web-conferences-and-what-not-2012.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/03\/29\/front-end-web-conferences-and-what-not-2012.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_attachments\/2011-04-26-red-eclipse.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_attachments\/2011-04-26-red-eclipse.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/2012\/08\/24\/css3-flip-cards.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/08\/24\/css3-flip-cards.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -41,17 +23,8 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/server\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/server\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/_posts\/2012-07-19-failed-the-test-got-the-job.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -72,7 +45,7 @@
       "debugStyle" : 0
     },
     "\/_posts\/2012-05-04-evil-web-design.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -81,7 +54,7 @@
       "fileType" : 2048
     },
     "\/_attachments\/2012-04-03-icons-good.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -101,6 +74,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_site\/blog\/2012\/04\/login-form-design\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/blog\/2012\/04\/login-form-design\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_site\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -108,12 +90,12 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_site\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
       "fileType" : 64
     },
     "\/_posts\/2012-08-03-the-designerdeveloper-conundrum.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -122,7 +104,7 @@
       "fileType" : 2048
     },
     "\/_posts\/2012-05-01-css3-toggle-switch-a-ui-alternative-to-checkboxes.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -142,26 +124,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/js\/plugins.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/plugins.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/js\/plugins-ck.js",
-      "fileType" : 64
-    },
-    "\/_attachments\/2011-06-02-phone-pad-design-2.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-phone-pad-design-2.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/css\/_inuit.css\/generic\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -174,15 +136,35 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/vendor\/jquery-1.9.1.min.js" : {
-      "ignoreWasSetByUser" : 0,
+    "\/_site\/js\/plugins.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/plugins-ck.js",
+      "fileType" : 64
+    },
+    "\/_attachments\/2011-06-02-phone-pad-design-2.html" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-phone-pad-design-2.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/vendor\/jquery-1.9.1.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.9.1.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.9.1.min-ck.js",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/jquery-1.9.1.min-ck.js",
       "fileType" : 64
     },
     "\/css\/_style.scss" : {
@@ -210,25 +192,16 @@
       "debugStyle" : 0
     },
     "\/_site\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_site\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/2012\/05\/01\/css3-toggle-switch-a-ui-alternative-to-checkboxes.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/05\/01\/css3-toggle-switch-a-ui-alternative-to-checkboxes.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_posts\/2012-03-29-front-end-web-conferences-and-what-not-2012.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -248,18 +221,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/generic\/_clearfix.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_clearfix.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_clearfix.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css\/_inuit.css\/base\/_lists.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -269,6 +230,18 @@
       "outputStyle" : 3,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_lists.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css\/_inuit.css\/generic\/_clearfix.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_clearfix.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_clearfix.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -284,12 +257,39 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_site\/blog\/2012\/07\/failed-the-test-got-the-job\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/blog\/2012\/07\/failed-the-test-got-the-job\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/page2\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/page2\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_attachments\/2011-06-02-phone-pad-design.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-phone-pad-design.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/blog\/2012\/04\/icon-fonts-pseudo-elements-and-ie8\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/blog\/2012\/04\/icon-fonts-pseudo-elements-and-ie8\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -314,19 +314,8 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/server\/js\/vendor\/jquery-1.9.1.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/server\/js\/vendor\/jquery-1.9.1.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/server\/js\/vendor\/jquery-1.9.1.min-ck.js",
-      "fileType" : 64
-    },
     "\/_posts\/2012-08-16-responsive-design-and-ux-tips.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -334,17 +323,8 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/2012\/07\/19\/failed-the-test-got-the-job.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/07\/19\/failed-the-test-got-the-job.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_attachments\/2011-06-02-teledini-setup-guide.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -365,7 +345,7 @@
       "debugStyle" : 0
     },
     "\/_posts\/2012-05-11-icon-fonts.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -373,19 +353,8 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/server\/js\/main.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/server\/js\/main.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/server\/js\/main-ck.js",
-      "fileType" : 64
-    },
     "\/_attachments\/2011-04-26-teldini-logo-reflect.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -416,6 +385,15 @@
       "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_arrows.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_site\/blog\/2012\/08\/the-designerdeveloper-conundrum\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/blog\/2012\/08\/the-designerdeveloper-conundrum\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/_inuit.css\/generic\/_push.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -454,7 +432,7 @@
       "debugStyle" : 0
     },
     "\/_attachments\/2011-06-02-loanbolt-logo-design.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -462,20 +440,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/_inuit.css\/objects\/_sprite.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/_attachments\/2011-04-26-teledinipluginsplashpage.html" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_sprite.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_sprite.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_attachments\/2011-04-26-teledinipluginsplashpage.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_attachments\/2012-04-03-icons-bad.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -483,12 +458,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_attachments\/2011-04-26-teledinipluginsplashpage.html" : {
-      "ignoreWasSetByUser" : 0,
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_attachments\/2011-04-26-teledinipluginsplashpage.html",
+      "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -505,7 +480,7 @@
       "debugStyle" : 0
     },
     "\/_attachments\/2011-06-02-ux-design-whiteboard.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -513,25 +488,26 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/server\/js\/plugins.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/server\/js\/plugins.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/server\/js\/plugins-ck.js",
-      "fileType" : 64
-    },
     "\/_attachments\/2011-06-02-call-type-icons.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-call-type-icons.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/css\/_inuit.css\/objects\/_sprite.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_sprite.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_sprite.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/_inuit.css\/objects\/_flyout.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -544,6 +520,17 @@
       "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_flyout.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/plugins.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/plugins-ck.js",
+      "fileType" : 64
     },
     "\/css\/_inuit.css\/base\/_headings.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -558,22 +545,13 @@
       "debugStyle" : 0
     },
     "\/_attachments\/2011-06-02-textiles-ui.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_attachments\/2011-06-02-textiles-ui.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/server\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/server\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/css\/_inuit.css\/generic\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -599,15 +577,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_site\/js\/vendor\/jquery-1.9.1.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -615,8 +584,8 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_site\/js\/vendor\/jquery-1.9.1.min.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/js\/vendor\/jquery-1.9.1.min-ck.js",
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/jquery-1.9.1.min-ck.js",
       "fileType" : 64
     },
     "\/css\/_inuit.css\/objects\/_icon-text.scss" : {
@@ -631,16 +600,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/server\/js\/plugins.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/css\/_inuit.css\/generic\/_brand.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/server\/js\/plugins.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/server\/js\/plugins-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_brand.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_brand.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/_inuit.css\/generic\/_widths.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -655,7 +625,7 @@
       "debugStyle" : 0
     },
     "\/_attachments\/2011-06-02-loanbolt-early-mockup.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -663,38 +633,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/server\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/_site\/blog\/2012\/08\/responsive-design-and-ux-tips\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/server\/index.html",
+      "inputAbbreviatedPath" : "\/_site\/blog\/2012\/08\/responsive-design-and-ux-tips\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/_site\/2012\/08\/03\/the-designerdeveloper-conundrum.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/08\/03\/the-designerdeveloper-conundrum.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/css\/_inuit.css\/generic\/_brand.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/generic\/_brand.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_brand.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/_posts\/2012-08-24-css3-flip-cards.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -710,23 +659,12 @@
       "inputAbbreviatedPath" : "\/_site\/js\/main.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/js\/main-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/plugins.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/plugins-ck.js",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/main-ck.js",
       "fileType" : 64
     },
     "\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/style.css",
@@ -745,18 +683,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_inuit.css\/objects\/_buttons.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_buttons.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_buttons.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css\/_inuit.css\/base\/_smallprint.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -769,27 +695,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
+    "\/css\/_inuit.css\/objects\/_buttons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/css\/_inuit.css\/objects\/_buttons.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_buttons.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/_inuit.css\/generic\/_debug.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -803,6 +719,26 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
+      "fileType" : 64
+    },
+    "\/_posts\/2012-03-28-css3-slider-or-something.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-03-28-css3-slider-or-something.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/css\/_inuit.css\/objects\/_stats.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -815,17 +751,8 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_posts\/2012-03-28-css3-slider-or-something.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_posts\/2012-03-28-css3-slider-or-something.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_attachments\/2011-06-02-ui-teledini-full.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -844,24 +771,6 @@
       "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_shared.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/_site\/2012\/08\/16\/responsive-design-and-ux-tips.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/08\/16\/responsive-design-and-ux-tips.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/server\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/server\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/css\/_inuit.css\/objects\/_media.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -899,17 +808,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/server\/js\/vendor\/jquery-1.9.1.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/server\/js\/vendor\/jquery-1.9.1.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/server\/js\/vendor\/jquery-1.9.1.min-ck.js",
-      "fileType" : 64
-    },
     "\/css\/_inuit.css\/objects\/_split.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -922,8 +820,20 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_layouts\/default.html" : {
+    "\/css\/_vars.scss" : {
       "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_vars.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_vars.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_layouts\/default.html" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -943,29 +853,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_vars.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_vars.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_vars.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_site\/server\/js\/main.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/server\/js\/main.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/_site\/server\/js\/main-ck.js",
-      "fileType" : 64
-    },
     "\/css\/_inuit.css\/generic\/_helper.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -978,8 +865,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_site\/blog\/2012\/08\/css3-flip-cards\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/blog\/2012\/08\/css3-flip-cards\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_attachments\/2011-06-02-ui-design-whiteboard.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -987,17 +883,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/2012\/04\/04\/icon-fonts-pseudo-elements-and-ie8.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/_site\/blog\/2012\/05\/css3-toggle-switch-a-ui-alternative-to-checkboxes\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/04\/04\/icon-fonts-pseudo-elements-and-ie8.html",
+      "inputAbbreviatedPath" : "\/_site\/blog\/2012\/05\/css3-toggle-switch-a-ui-alternative-to-checkboxes\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/_attachments\/2011-06-02-blog-logo-comps.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -1017,6 +913,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_posts\/2012-04-04-icon-fonts-pseudo-elements-and-ie8.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_posts\/2012-04-04-icon-fonts-pseudo-elements-and-ie8.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1025,17 +930,8 @@
       "inputAbbreviatedPath" : "\/js\/main.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/main-ck.js",
+      "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/main-ck.js",
       "fileType" : 64
-    },
-    "\/_posts\/2012-04-04-icon-fonts-pseudo-elements-and-ie8.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_posts\/2012-04-04-icon-fonts-pseudo-elements-and-ie8.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/css\/_inuit.css\/objects\/_greybox.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1048,17 +944,6 @@
       "outputAbbreviatedPath" : "\/Users\/andyair13\/Dropbox\/github\/assets\/stylesheets\/_greybox.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/server\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
-      "fileType" : 64
     },
     "\/css\/_inuit.css\/objects\/_pagination.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1084,15 +969,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/2012\/05\/04\/evil-web-design.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/05\/04\/evil-web-design.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/css\/_inuit.css\/objects\/_batch.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1106,11 +982,20 @@
       "debugStyle" : 0
     },
     "\/_posts\/2012-04-05-login-form-design.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_posts\/2012-04-05-login-form-design.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/blog\/2012\/03\/front-end-web-conferences-and-what-not-2012\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/blog\/2012\/03\/front-end-web-conferences-and-what-not-2012\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1139,7 +1024,7 @@
       "debugStyle" : 0
     },
     "\/_attachments\/2011-06-02-ui-teledini-full-2.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -1171,17 +1056,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/2012\/04\/05\/login-form-design.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/_site\/blog\/2012\/05\/evil-web-design\/index.html" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/04\/05\/login-form-design.html",
+      "inputAbbreviatedPath" : "\/_site\/blog\/2012\/05\/evil-web-design\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
     "\/_attachments\/2012-04-05-login-form.html" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -1213,7 +1098,7 @@
     "draggedImportConcatenationStyle" : 1,
     "jadeAutoOutputPathStyle" : 0,
     "hamlEscapeHTMLCharacters" : 0,
-    "javascriptAutoOutputPathStyle" : 0,
+    "javascriptAutoOutputPathStyle" : 1,
     "hamlOutputFormat" : 2,
     "stylusAutoOutputPathReplace1" : "stylus",
     "lessStrictImports" : 0,
