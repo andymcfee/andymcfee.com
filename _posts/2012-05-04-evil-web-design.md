@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Evil Web Design
-tags: 
+tags:
 - Blog
 status: publish
 type: post
 published: true
-meta: 
+meta:
   _edit_last: "1"
+converted: true
 ---
-At work, we have a very basic internal HTML page that we use to list out our staging servers so that developers can see what is currently staged on what server.  It looks like this: 
+At work, we have a very basic internal HTML page that we use to list out our staging servers so that developers can see what is currently staged on what server.  It looks like this:
 
 <iframe src="http://dabblet.com/gist/2577227" style="width:100%;height:300px;" frameborder="0"></iframe>
 
@@ -19,13 +20,13 @@ I quickly found the obviously developer-created stylesheet and began to manipula
 
 <iframe src="http://dabblet.com/gist/2577295" style="width:100%;height:300px;" frameborder="0"></iframe>
 
-A few easily impressed developers later and my ego swelled to dangerous proportions. But I couldn't stop there. No, not by a long shot. How does the old saying go? "He who controls the CSS controls the world?" Something like that.  
+A few easily impressed developers later and my ego swelled to dangerous proportions. But I couldn't stop there. No, not by a long shot. How does the old saying go? "He who controls the CSS controls the world?" Something like that.
 
 Enter animations:
 
 <iframe src="http://dabblet.com/gist/2577324" style="width:100%;height:300px;" frameborder="0"></iframe>
 
-Now I've struck fear into their hearts. They see now what I'm really capable of and are much more weary of my abilities.  I can only handle their complaints about "not being able to click the links" for so long.  
+Now I've struck fear into their hearts. They see now what I'm really capable of and are much more weary of my abilities.  I can only handle their complaints about "not being able to click the links" for so long.
 
 Fine, but be careful what you wish for...
 

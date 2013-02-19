@@ -13,6 +13,8 @@ body
   color: $textColor
   background-color: $bodyBackground
 
+*
+  +box-sizing(border-box)
 
 // Links
 // -------------------------
@@ -44,3 +46,21 @@ a:hover
 .img-circle
   +ctb-border-radius(500px)
   // crank the border-radius so it works with most reasonably sized images
+
+header
+
+.banner
+  background: $bodyBackground - 100
+  font-size: $baseFontSize * 3
+  line-height: 1em
+  font-weight: bold
+  text-align: center
+  padding: 1em
+
+
+.logo
+  font-size: 2em
+  margin: 0
+  padding: 0
+
+
