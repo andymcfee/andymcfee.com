@@ -1,9 +1,11 @@
 url:         http://andymcfee.com
 baseurl:    /
 
-pygments:    true
+#pygments:    true
 permalink:   /blog/:year/:month/:title/
 #paginate:    5
 #paginate_file: posts.html
 
-exclude: README.md sass
+exclude: README.md sass *.sublime-project
+
+markdown: maruku
