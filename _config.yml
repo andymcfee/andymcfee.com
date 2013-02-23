@@ -1,11 +1,12 @@
-url:         http://andymcfee.com
+url:        http://andymcfee.com
 baseurl:    /
+auto:       true
 
 #pygments:    true
-permalink:   /blog/:year/:month/:title/
+permalink:  /blog/:year/:month/:title/
 #paginate:    5
 #paginate_file: posts.html
 
-exclude: README.md sass *.sublime-project
+exclude:    README.md, sass, ideas.txt
 
-markdown: maruku
+markdown:   maruku

@@ -1,19 +1,13 @@
 ---
 layout: default
 ---
-<section class="content">
-  <p>
-  Hi.  I'm working on setting up Jekyll.  I think I am going to like it.
-  </p>
-  <ul class="entries">
+<ul class="entries">
   {% for post in site.posts %}
   <li>
     <a href="{{ post.url }}">
-      <img src="{{ post.image }}" />
       <h3>{{ post.title }}</h3>
-      <h6>{{ post.date }}</h6>
+      <h6>{{ post.date | date_to_string }}</h6>
     </a>
   </li>
   {% endfor %}
 </ul>
-</section>

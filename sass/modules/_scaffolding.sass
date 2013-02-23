@@ -5,13 +5,23 @@
 // Body reset
 // -------------------------
 
+html
+  height: 100%
+
 body
   margin: 0
   font-family: $baseFontFamily
   font-size: $baseFontSize
   line-height: $baseLineHeight
   color: $textColor
-  background-color: $bodyBackground
+  height: 100%
+  margin: 0
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background-color: rgb(255,255,255)
+  +filter-gradient($white, $bodyBackground, horizontal)
+  +background-image(radial-gradient(top, ellipse cover, $white 0%, $bodyBackground 100%))
+
 
 *
   +box-sizing(border-box)
@@ -48,19 +58,67 @@ a:hover
   // crank the border-radius so it works with most reasonably sized images
 
 header
+  +clearfix
+  @media (min-width: $arya)
+    width: $arya
+    padding: 0 1rem
+    margin: 0 auto
+
 
 .banner
-  background: $bodyBackground - 100
-  font-size: $baseFontSize * 3
-  line-height: 1em
+  background: $bannerBackground
+  font-size: $baseFontSize * 2
   font-weight: bold
+  line-height: 1rem
+  padding: $baseLineHeight
   text-align: center
-  padding: 1em
-
 
 .logo
-  font-size: 2em
-  margin: 0
+  font-size: $baseFontSize * 2
+  line-height: $baseLineHeight * 2
+  display: block
+  font-weight: bold
+  margin: $baseFontSize / 2 0
   padding: 0
+  text-align: center
+  @media (min-width: $arya)
+    float: left
+
+nav
+  +clearfix
+  display: block
+  margin: 0 auto
+  text-align: center
+  margin: $baseFontSize / 2 0
+  li
+    font-size: 10px
+    padding: 0
+  @media (min-width: $arya)
+    float: right
 
 
+$contentWidth: $arya
+.main
+  width: 100%
+  padding: 1rem
+  @media (min-width: 500px)
+    padding: 2rem
+  @media (min-width: 600px)
+    width: $contentWidth
+    margin: 0 auto
+
+.entries
+  @extend ul.unstyled
+  li
+    margin-bottom: 1rem
+  h3,
+  h6
+    text-align: center
+    margin: 0
+
+.cp_embed_iframe
+  width: 100%
+  @media (min-width: $arya)
+    $codepenWidth: $arya
+    width: $codepenWidth !important
+    margin-left: - (($codepenWidth - $contentWidth) / 2) - 2
