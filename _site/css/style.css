@@ -162,13 +162,14 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 html {
-  height: 100%; }
+  height: 100%;
+  font-size: 16px; }
 
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1rem;
+  line-height: 1rem;
   color: #333333;
   height: 100%;
   margin: 0;
@@ -189,11 +190,11 @@ body {
   box-sizing: border-box; }
 
 a {
-  color: #478dbb;
+  color: #0074c9;
   text-decoration: none; }
 
 a:hover {
-  color: #6ca4c9;
+  color: #0091fc;
   text-decoration: underline; }
 
 .img-rounded {
@@ -217,54 +218,53 @@ a:hover {
 
 header {
   overflow: hidden;
-  *zoom: 1; }
+  *zoom: 1;
+  padding: 0; }
   @media (min-width: 40rem) {
     header {
-      width: 40rem;
+      width: 38rem;
       padding: 0 1rem;
       margin: 0 auto; } }
 
-.banner {
-  background: #c8c8c8;
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1rem;
-  padding: 22px;
-  text-align: center; }
+.logo,
+nav {
+  overflow: hidden;
+  *zoom: 1;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding: 0;
+  margin: 1rem 0;
+  display: block;
+  text-align: center;
+  overflow: visible; }
 
 .logo {
-  font-size: 32px;
-  line-height: 44px;
-  display: block;
-  font-weight: bold;
-  margin: 8px 0;
-  padding: 0;
-  text-align: center; }
+  font-weight: bold; }
   @media (min-width: 40rem) {
     .logo {
       float: left; } }
 
-nav {
-  overflow: hidden;
-  *zoom: 1;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  margin: 8px 0; }
-  nav li {
-    font-size: 10px;
-    padding: 0; }
-  @media (min-width: 40rem) {
-    nav {
-      float: right; } }
+nav a {
+  padding: 0; }
+@media (min-width: 40rem) {
+  nav {
+    float: right; } }
+
+.banner {
+  background: #c8c8c8;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+  padding: 2rem 1rem;
+  text-align: center; }
 
 .main {
   width: 100%;
   padding: 1rem; }
-  @media (min-width: 500px) {
+  @media (min-width: 24rem) {
     .main {
       padding: 2rem; } }
-  @media (min-width: 600px) {
+  @media (min-width: 40rem) {
     .main {
       width: 40rem;
       margin: 0 auto; } }
@@ -1759,25 +1759,25 @@ input[type="button"].btn-block {
 .btn-primary {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #477ebb;
-  background-image: -moz-linear-gradient(top, #478dbb, #4766bb);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#478dbb), to(#4766bb));
-  background-image: -webkit-linear-gradient(top, #478dbb, #4766bb);
-  background-image: -o-linear-gradient(top, #478dbb, #4766bb);
-  background-image: linear-gradient(to bottom, #478dbb, #4766bb);
+  background-color: #005ac9;
+  background-image: -moz-linear-gradient(top, #0074c9, #0031c9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0074c9), to(#0031c9));
+  background-image: -webkit-linear-gradient(top, #0074c9, #0031c9);
+  background-image: -o-linear-gradient(top, #0074c9, #0031c9);
+  background-image: linear-gradient(to bottom, #0074c9, #0031c9);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#448ab9', endColorstr='#4464b9', GradientType=0);
-  border-color: #4766bb #4766bb #314885;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0071c4', endColorstr='#0030c4', GradientType=0);
+  border-color: #0031c9 #0031c9 #001e7d;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #4766bb;
+  *background-color: #0031c9;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }
   .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
     color: white;
-    background-color: #4766bb;
-    *background-color: #3f5caa; }
+    background-color: #0031c9;
+    *background-color: #002bb0; }
   .btn-primary:active, .btn-primary.active {
-    background-color: #385297 \9; }
+    background-color: #002596 \9; }
 
 .btn-warning {
   color: white;
@@ -1927,13 +1927,13 @@ input[type="submit"].btn {
 .btn-link {
   border-color: transparent;
   cursor: pointer;
-  color: #478dbb;
+  color: #0074c9;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0; }
 
 .btn-link:hover {
-  color: #6ca4c9;
+  color: #0091fc;
   text-decoration: underline;
   background-color: transparent; }
 
@@ -2144,7 +2144,7 @@ input[type="submit"].btn {
   transition: all 0.2s ease-in-out; }
 
 a.thumbnail:hover {
-  border-color: #478dbb;
+  border-color: #0074c9;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25); }
@@ -2494,6 +2494,46 @@ ul.icons {
     ul.icons li .icon-large:before,
     ul.icons li .icon-large:before {
       vertical-align: initial; }
+
+.icon-round {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f7f7f7), color-stop(100%, #ededed)) #f7f7f7;
+  background: -webkit-linear-gradient(#f7f7f7, #ededed) #f7f7f7;
+  background: -moz-linear-gradient(#f7f7f7, #ededed) #f7f7f7;
+  background: -o-linear-gradient(#f7f7f7, #ededed) #f7f7f7;
+  background: linear-gradient(#f7f7f7, #ededed) #f7f7f7;
+  -webkit-box-shadow: 0 2px 4px white inset, 0 -2px 4px gainsboro inset;
+  -moz-box-shadow: 0 2px 4px white inset, 0 -2px 4px gainsboro inset;
+  box-shadow: 0 2px 4px white inset, 0 -2px 4px gainsboro inset;
+  text-shadow: 1px 1px 0 white;
+  color: #c8c8c8;
+  font-size: 1.75rem;
+  padding: 0;
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem; }
+  .icon-round:hover {
+    color: #c8c8c8; }
+
+.icon-forrst:hover {
+  background: #5b9a68; }
+
+.icon-twitter:hover {
+  background: #00a0d1; }
+
+.icon-github:hover {
+  background: #4183c4; }
+
+.icon-rss:hover {
+  background: #ee802f; }
+
+.icon-codepen:hover {
+  background: #555555; }
 
 .icon-rss:before {
   content: "\e000"; }

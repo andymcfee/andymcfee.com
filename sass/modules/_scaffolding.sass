@@ -7,12 +7,13 @@
 
 html
   height: 100%
+  font-size: $baseFontSize
 
 body
   margin: 0
   font-family: $baseFontFamily
-  font-size: $baseFontSize
-  line-height: $baseLineHeight
+  font-size: 1rem
+  line-height: 1rem
   color: $textColor
   height: 100%
   margin: 0
@@ -59,51 +60,53 @@ a:hover
 
 header
   +clearfix
+  padding: 0
   @media (min-width: $arya)
-    width: $arya
+    width: $arya - 2
     padding: 0 1rem
     margin: 0 auto
 
-
-.banner
-  background: $bannerBackground
-  font-size: $baseFontSize * 2
-  font-weight: bold
-  line-height: 1rem
-  padding: $baseLineHeight
+.logo,
+nav
+  +clearfix
+  font-size: 2rem
+  line-height: 2rem
+  padding: 0
+  margin: 1rem 0
+  display: block
   text-align: center
+  overflow: visible
 
 .logo
-  font-size: $baseFontSize * 2
-  line-height: $baseLineHeight * 2
-  display: block
   font-weight: bold
-  margin: $baseFontSize / 2 0
-  padding: 0
-  text-align: center
   @media (min-width: $arya)
     float: left
 
 nav
-  +clearfix
-  display: block
-  margin: 0 auto
-  text-align: center
-  margin: $baseFontSize / 2 0
-  li
-    font-size: 10px
+  a
     padding: 0
+
   @media (min-width: $arya)
     float: right
+
+
+.banner
+  background: $bannerBackground
+  font-size: 2rem
+  font-weight: bold
+  line-height: 2rem
+  padding: 2rem 1rem
+  text-align: center
+
 
 
 $contentWidth: $arya
 .main
   width: 100%
   padding: 1rem
-  @media (min-width: 500px)
+  @media (min-width: $bran)
     padding: 2rem
-  @media (min-width: 600px)
+  @media (min-width: $arya)
     width: $contentWidth
     margin: 0 auto
 

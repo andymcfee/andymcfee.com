@@ -25,20 +25,8 @@
       "outputAbbreviatedPath" : "\/js\/plugins.min.js",
       "fileType" : 64
     },
-    "\/sass\/modules\/_code.sass" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_code.sass",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_code.css",
-      "fileType" : 2,
-      "debugStyle" : 0
-    },
     "\/sass\/modules\/_modals.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -61,8 +49,20 @@
       "fileType" : 2,
       "debugStyle" : 0
     },
-    "\/sass\/modules\/_media.sass" : {
+    "\/sass\/modules\/_code.sass" : {
       "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/modules\/_code.sass",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_code.css",
+      "fileType" : 2,
+      "debugStyle" : 0
+    },
+    "\/sass\/modules\/_media.sass" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -98,7 +98,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_accordion.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -109,19 +109,8 @@
       "fileType" : 2,
       "debugStyle" : 0
     },
-    "\/_site\/img\/bkgd.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/img\/bkgd.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/img\/bkgd.png",
-      "initialSize" : 19452,
-      "fileType" : 8192
-    },
     "\/sass\/modules\/_button-groups.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -141,31 +130,8 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/img\/bkgd@2X.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/img\/bkgd@2X.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/img\/bkgd@2X.png",
-      "initialSize" : 21038,
-      "fileType" : 8192
-    },
-    "\/sass\/modules\/_dropdowns.sass" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/modules\/_dropdowns.sass",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_dropdowns.css",
-      "fileType" : 2,
-      "debugStyle" : 0
-    },
     "\/sass\/modules\/_popovers.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -173,6 +139,18 @@
       "outputStyle" : 3,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_popovers.css",
+      "fileType" : 2,
+      "debugStyle" : 0
+    },
+    "\/sass\/modules\/_dropdowns.sass" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/modules\/_dropdowns.sass",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_dropdowns.css",
       "fileType" : 2,
       "debugStyle" : 0
     },
@@ -186,7 +164,7 @@
       "fileType" : 2048
     },
     "\/sass\/modules\/_pager.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -198,7 +176,7 @@
       "debugStyle" : 0
     },
     "\/_site\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -237,7 +215,7 @@
       "fileType" : 2048
     },
     "\/sass\/modules\/_alerts.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -247,17 +225,6 @@
       "outputAbbreviatedPath" : "\/css\/_alerts.css",
       "fileType" : 2,
       "debugStyle" : 0
-    },
-    "\/img\/bkgd@2X.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bkgd@2X.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bkgd@2X.png",
-      "initialSize" : 21038,
-      "fileType" : 8192
     },
     "\/sass\/modules\/_responsive-navbar.sass" : {
       "ignoreWasSetByUser" : 0,
@@ -283,7 +250,7 @@
       "fileType" : 64
     },
     "\/sass\/modules\/_carousel.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -295,7 +262,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_layouts.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -342,7 +309,7 @@
       "fileType" : 64
     },
     "\/sass\/modules\/_labels-badges.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -401,7 +368,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_hero-unit.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -460,7 +427,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_grid.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -471,19 +438,8 @@
       "fileType" : 2,
       "debugStyle" : 0
     },
-    "\/img\/bkgd.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bkgd.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bkgd.png",
-      "initialSize" : 19452,
-      "fileType" : 8192
-    },
     "\/sass\/modules\/_icons.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -516,7 +472,7 @@
       "fileType" : 32768
     },
     "\/sass\/modules\/_font-awesome.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -537,7 +493,7 @@
       "fileType" : 2048
     },
     "\/sass\/modules\/_forms.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -549,7 +505,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_navs.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -561,7 +517,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_breadcrumbs.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -573,7 +529,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_buttons.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -585,7 +541,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_navbar.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -620,7 +576,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_pagination.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -656,7 +612,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_tooltip.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -668,7 +624,7 @@
       "debugStyle" : 0
     },
     "\/sass\/modules\/_mixins.sass" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
