@@ -8,24 +8,25 @@ code,
 pre
   padding: 0 3px 2px
   +ctb-font-family-monospace
-  font-size: $baseFontSize - 2
+  font-size: $baseFontSize
   color: $grayDark
   +ctb-border-radius(3px)
 
 // Inline code
 code
   padding: 2px 4px
-  color: #d14
+  color: $codeColor
   background-color: #f7f7f9
   border: 1px solid #e1e1e8
   white-space: nowrap
+
 
 // Blocks of code
 pre
   display: block
   padding: ($baseLineHeight - 1) / 2
   margin: 0 0 $baseLineHeight / 2
-  font-size: $baseFontSize - 1
+  font-size: $baseFontSize - .1
   // 14px to 13px
   line-height: $baseLineHeight
   word-break: break-all

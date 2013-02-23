@@ -65,34 +65,31 @@ ul.icons
       vertical-align: initial
       //      width: 1.5*1.25em;
 
-$roundIconColor: $bodyBackground - 40
-$roundIconBackground: #f7f7f7
-.icon-round
-  +border-radius(50%)
-  +background(linear-gradient($roundIconBackground, $roundIconBackground - 10) $roundIconBackground)
-  +box-shadow(0 2px 4px $white inset, 0 -2px 4px $bodyBackground - 20 inset)
-  +text-shadow(1px 1px 0 rgba($white, 1))
-  color: $roundIconColor
-  font-size: 1.75rem
-  padding: 0
-  display: inline-block
-  width: 2.5rem
-  height: 2.5rem
-  line-height: 2.5rem
-  &:hover
-    color: $roundIconColor
 
+.icon-round
+
+
+.social-icons
+  .icon
+    +text-shadow
+    color: $socialColor
+    font-size: 2rem
+    margin: 0 .25rem
+    &:first-child
+      margin-left: 0
+    &:last-child
+      margin-right: 0
 
 .icon-forrst:hover
-  background: $forrst
+  color: $forrst
 .icon-twitter:hover
-  background: $twitter
+  color: $twitter
 .icon-github:hover
-  background: $github
+  color: $github
 .icon-rss:hover
-  background: $rss
+  color: $rss
 .icon-codepen:hover
-  background: $codepen
+  color: $codepen
 
 
 .icon-rss:before

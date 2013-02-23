@@ -12,16 +12,22 @@ html
 body
   margin: 0
   font-family: $baseFontFamily
-  font-size: 1rem
-  line-height: 1rem
+  font-size: 1.25rem
+  font-weight: 300
+  line-height: 1.75rem
   color: $textColor
   height: 100%
   margin: 0
+  background-color: $bodyBackground
+  //+filter-gradient($white, $bodyBackground, horizontal)
+  //+background-image(radial-gradient(top, circle cover, $white, $bodyBackground))
   background-repeat: no-repeat
   background-attachment: fixed
-  background-color: rgb(255,255,255)
-  +filter-gradient($white, $bodyBackground, horizontal)
-  +background-image(radial-gradient(top, ellipse cover, $white 0%, $bodyBackground 100%))
+
+
+  @media (min-width: $bran)
+    font-size: 1.25rem
+    line-height: 1.85rem
 
 
 *
@@ -31,8 +37,10 @@ body
 // -------------------------
 
 a
+  +single-transition
   color: $linkColor
   text-decoration: none
+  font-weight: bold
 
 a:hover
   color: $linkColorHover
@@ -63,7 +71,7 @@ header
   padding: 0
   @media (min-width: $arya)
     width: $arya - 2
-    padding: 0 1rem
+    padding: 1rem
     margin: 0 auto
 
 .logo,
@@ -79,6 +87,10 @@ nav
 
 .logo
   font-weight: bold
+  color: $socialColor
+  +text-shadow
+  &:hover
+    color: $green
   @media (min-width: $arya)
     float: left
 
@@ -91,12 +103,17 @@ nav
 
 
 .banner
-  background: $bannerBackground
-  font-size: 2rem
+  +text-shadow
+  font-size: 2.5rem
   font-weight: bold
-  line-height: 2rem
+  line-height: 2.5rem
   padding: 2rem 1rem
   text-align: center
+  text-rendering: optimizelegibility
+  @media (min-width: $arya)
+    font-size: 3rem
+    line-height: 3rem
+    padding: 2rem 10%
 
 
 
@@ -106,22 +123,41 @@ $contentWidth: $arya
   padding: 1rem
   @media (min-width: $bran)
     padding: 2rem
-  @media (min-width: $arya)
-    width: $contentWidth
+    width: $bran
     margin: 0 auto
+  @media (min-width: $arya)
+    width: $arya
 
 .entries
   @extend ul.unstyled
   li
-    margin-bottom: 1rem
+    margin: 2rem
+    &:first-child
+      margin-top: 0
+    &:last-child
+      margin-bottom: 0
   h3,
   h6
     text-align: center
     margin: 0
+  h3
+    line-height: 1.75rem
+    font-size: 1.75rem
+  h6
+    font-weight: normal
+    color: $bodyBackground - 40
 
 .cp_embed_iframe
   width: 100%
-  @media (min-width: $arya)
-    $codepenWidth: $arya
-    width: $codepenWidth !important
-    margin-left: - (($codepenWidth - $contentWidth) / 2) - 2
+  @media (min-width: $arya + 4)
+    width: $arya + 4 !important
+    margin-left: -4rem
+  @media (min-width: $arya + 8)
+    width: $arya + 8 !important
+    margin-left: -6rem
+  @media (min-width: $arya + 16)
+    width: $arya + 16 !important
+    margin-left: -10rem
+  @media (min-width: $arya + 32)
+    width: $arya + 24 !important
+    margin-left: -14rem

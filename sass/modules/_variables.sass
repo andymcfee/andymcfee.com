@@ -20,7 +20,7 @@ $white:          #fff !default
 $blue:           #0074C9 !default
 $blueDark:       #1e2a38 !default
 $blueLessDark:   #283748
-$green:          #46a546 !default
+$green:          #89c503 !default
 $red:            #9d261d !default
 $yellow:         #ffc40d !default
 $orange:         #f89406 !default
@@ -36,35 +36,49 @@ $rss:            #ee802f
 $forrst:         #5b9a68
 $codepen:        $gray
 
+$offWhite:       #e6eaeb
 
-// Scaffolding
+// Module Colors
 // -------------------------
-$bodyBackground: $white - 15 !default
-$bannerBackground: $bodyBackground - 40
-$headerBackground: $bodyBackground - 50
-$textColor: $grayDark !default
+$bodyBackground:     $offWhite !default
+$bannerBackground:   $bodyBackground
+$headerBackground:   $bodyBackground - 50
+$textColor:          $gray !default
+$socialColor:        $bodyBackground - 35
+$codeColor:          $orange
 
 // Big Break Points
 // -------------------------
-$bran: 24rem
+$bran: 30rem
 $arya: 40rem
 $jon:  60rem
+
+// Transition
+// ------------------
+$default-transition-duration: 250ms
+
+// Text Shadows
+// ------------------
+$default-text-shadow-color: $bodyBackground + 15
+$default-text-shadow-h-offset: 1px
+$default-text-shadow-v-offset: 1px
+$default-text-shadow-blur: 0
 
 
 // Links
 // -------------------------
-$linkColor: $blue !default
-$linkColorHover: lighten($linkColor, 10%) !default
+$linkColor: adjust-saturation($blue, -20%) !default
+$linkColorHover: $blue + 20 !default
 
 // Typography
 // -------------------------
-$sansFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif !default
+$sansFontFamily: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default
 $serifFontFamily: Georgia, "Times New Roman", Times, serif !default
 $monoFontFamily: Monaco, Menlo, Consolas, "Courier New", monospace !default
 
-$baseFontSize: 16px !default
+$baseFontSize: 1rem !default
 $baseFontFamily: $sansFontFamily !default
-$baseLineHeight: 22px !default
+$baseLineHeight: 2rem !default
 $altFontFamily: $serifFontFamily !default
 
 $headingsFontFamily: inherit
@@ -151,7 +165,7 @@ $inputBorder: #cccccc !default
 $inputBorderRadius: $baseBorderRadius !default
 $inputDisabledBackground: $grayLighter !default
 $formActionsBackground: whitesmoke !default
-$inputHeight: $baseLineHeight + 10px
+$inputHeight: $baseLineHeight + .75
 
 // base line-height + 8px vertical padding + 2px top/bottom border
 

@@ -4,3 +4,4 @@ _site/
 .sass-cache/
 *.css
 ideas.txt
+codekit-config.json
