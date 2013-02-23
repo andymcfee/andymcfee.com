@@ -7,8 +7,7 @@ tags:
 - sample
 - template
 type: post
-published: true
-dev: true
+published: false
 ---
 
 Markdown: Basics

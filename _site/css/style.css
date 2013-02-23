@@ -200,6 +200,11 @@ a:hover {
   color: #1488dd;
   text-decoration: underline; }
 
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0; }
+
 .img-rounded {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -246,7 +251,7 @@ nav {
   color: #c3c7c8;
   text-shadow: 1px 1px 0 #f5f9fa; }
   .logo:hover {
-    color: #89c503; }
+    color: #f89406; }
   @media (min-width: 40rem) {
     .logo {
       float: left; } }
@@ -424,7 +429,11 @@ h5 {
   font-size: 1rem; }
 
 h6 {
-  font-size: 0.85rem; }
+  font-size: 0.85rem;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: -0.75rem;
+  text-align: center; }
 
 h4,
 h5,

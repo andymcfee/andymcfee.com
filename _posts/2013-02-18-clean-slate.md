@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Clean Slate
+title: Reset
 slug: I was tired of always configuring new projects, so I made template project with all my default plugins and utilities.
 tags:
 - github
@@ -9,28 +9,28 @@ type: post
 published: true
 ---
 
-I've recently had a burst of creative inspiration and ...
+Well, I've done it again. I've redesigned my site/blog.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et enim non leo congue vestibulum id quis est. Sed at velit mi. In hac habitasse platea dictumst. Sed venenatis egestas nibh, vel consequat turpis dapibus et. Aliquam nisl quam, tincidunt vel feugiat eu, molestie quis velit.
+Actually, I've done much more than just redesign: I've rebuilt my entire site using Jekyll.  WordPress was just overkill for what I needed and Jekyll gives me so much more control over everything about my site.
+No more PHP.  No more database. Just HTML, CSS and JS.  Me likey.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Ready... Set...
+=================
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ma
+The move to Jekyll wasn't completely painless.  I didn't have much success with any of the [conversion tools][1] out there, but I only have a handful of blog posts so converting them manually was simple enough.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maur
+The majority of my time was spent "redesigning" and by "redesigning" I mean constantly changing colors til I was happy.
 
-Phasellus elementum convallis augue nec ullamcorper. Fusce tellus eros, facilisis et convallis vitae, tincidunt eget mauris. Praesent ac est lorem. Fusce id placerat neque. Sed risus lectus, bibendum et elementum rutrum, mattis vitae nisl. Aenean et nibh nunc. Integer euismod nisi nec dolor facilisis ac viverra velit venenatis. Vivamus condimentum bibendum nibh ac suscipit.
+I finally made myself commit to where I'm at now and push out an MVP version of my site, which I"m actually pretty happy with.  I'll add new pages/features/functionality as I have time to do so and I'll let it grow organically over time.
 
-...and every time I have to download HTML5Boilerplate, integrate the Sass/Compass implementation of Bootstrap, blah blah blah
+But my goal is to not fully redesign again for a long time.  At least a year.  But I'll continue to modify and update as I go along.
 
-And scene.
+Behind The Curtain
+================
 
-<pre class='codepen' data-height='300' data-type='result' data-href='xyufl' data-user='andymcfee' data-safe='true'><code></code><a href='http://codepen.io/andymcfee/pen/xyufl'>Check out this Pen!</a></pre>
-<script src='http://codepen.io/assets/embed/ei.js'>
-</script>
+And in the interest of transparency, my entire blog is available on [GitHub][2] for anyone to check out.  If you're thinking of moving to or starting a Jekyll-based blog or site, have a look to see how things are structured.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et enim non leo congue vestibulum id quis est. Sed at velit mi.
+Well, that's all I've got for now.
 
-In hac habitasse platea dictumst. Sed venenatis egestas nibh, vel consequat turpis dapibus et. Aliquam nisl quam, tincidunt vel feugiat eu, molestie quis velit. Phasellus elementum convallis augue nec ullamcorper. Fusce tellus eros, facilisis et convallis vitae, tincidunt eget mauris.
-
-Praesent ac est lorem. Fusce id placerat neque. Sed risus lectus, bibendum et elementum rutrum, mattis vitae nisl. Aenean et nibh nunc. Integer euismod nisi nec dolor facilisis ac viverra velit venenatis. Vivamus condimentum bibendum nibh ac suscipit.
+[1]: https://github.com/mojombo/jekyll/wiki/blog-migrations
+[2]: https://github.com/andymcfee/andymcfee.com

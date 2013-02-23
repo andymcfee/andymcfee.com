@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: CSS3 Flip Cards
 tags:
 - Blog
@@ -14,8 +14,7 @@ Every friday afternoon at Official.fm, we get to work on open source projects an
 
 For my most recent project, I decided to make CSS "Flip Cards."  My goal was to create re-useable card-like elements that flip on hover (or tap!). Check it out:
 
-<pre class="codepen" data-type="result" data-href="eyahr" data-user="andymcfee">````</pre>
-<script async src="http://codepen.io/assets/embed/ei.js"></script>
+    Uh oh. I'm having some problems embedding CodePens right now.  This pen will return shortly.
 
 The HTML markup is fairly straight forward: each card is a container div (``.flip-card``) with two children: ``.card-front`` and ``.card-back``.
 
@@ -41,8 +40,7 @@ Ok, so I lied a bit in that last part when I said that ``.card-back`` was rotate
 
 How dare you take that tone of voice with me.  Rotating an object from 180° to 0° along a y-axis rotates in the opposite direction that rotating from -180° to 0° would. Still confused? Here:
 
-<pre class="codepen" data-type="result" data-href="wvhmy" data-user="andymcfee">````</pre>
-<script async src="http://codepen.io/assets/embed/ei.js"></script>
+    Uh oh. I'm having some problems embedding CodePens right now.  This pen will return shortly.
 
 I've made the boxes wider and decreased the ``perspective`` a bit to make it a bit more obvious what's going on here, but you should be able to tell that the back sides (``.card-back``) in the "bad" examples rotate the wrong direction, breaking the illusion of a physical "card" rotating.
 

@@ -3,7 +3,7 @@ baseurl:    /
 auto:       true
 
 #pygments:    true
-permalink:  /blog/:year/:month/:title/
+permalink:  /:year/:month/:title/
 #paginate:    5
 #paginate_file: posts.html
 
