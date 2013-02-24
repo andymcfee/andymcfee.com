@@ -92,4 +92,4 @@ This is a problem I've been struggling with for weeks at Official.fm. Our HTML5 
 
 The only "solution" we've come up with is not using the :before pseudo-class in IE8 and instead, dynamically injecting the letters via JS. It's a ridiculous work around but it's the only way we can get the icons to render properly in IE8.
 
-So there you go. With the recent rise in the popularity of icon fonts, I don't know why I haven't heard of more people having this problem. Fortunately, IE8 is on it's way out and every single day, this becomes less and less of an issue as more and more people dump IE8 and transition to truly modern browsers (IE9, don't get too excited, I'm not talking to you).
+So there you go. With the recent rise in the popularity of icon fonts, I don't know why I haven't heard of more people having this problem. Fortunately, IE8 is on it's way out and every single day, this becomes less and less of an issue as more and more people dump IE8 and transition to truly modern browsers (IE9: don't get too excited, I'm not talking to you).
