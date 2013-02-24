@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> Icon Fonts, Pseudo-Elements and IE8 |  Andy McFee UX Developer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header>
+      <a href="/" class="logo">Andy McFee</a>
+
+      <nav class="social-icons">
+        <a href="http://www.twitter.com/andymcfee" class="icon icon-twitter"></a>
+        <a href="http://www.github.com/andymcfee" class="icon icon-github"></a>
+        <a href="http://codepen.io/andymcfee" class="icon icon-codepen"></a>
+      </nav>
+    </header>
+
+    <div class="banner">
+      
+         Icon Fonts, Pseudo-Elements and IE8
+      
+    </div>
+
+    <section class="main">
+      <p>I love icon fonts. Who doesn&#8217;t? Nobody. That&#8217;s who. They are just super and they pretty much work in every browser (<a href='http://www.webfonts.info/wiki/index.php?title=@font-face_browser_support'>IE has supported @font-face since IE 4</a>! Chew on that for a while.) and I could talk about them for hours, but that&#8217;s not why I&#8217;m writing this post. No, I&#8217;m writing this because of an oddly prominent bug I&#8217;ve encountered with icon fonts and IE8 and pseudo elements.</p>
+
+<h1 id='icon_fonts_101'>ICON FONTS 101</h1>
+
+<p>But first, let&#8217;s set the stage. Like I said, icon fonts are just swell. For example, once I have created my icon font, I just use @font-face to include my font files on my site and create a class to use it:</p>
+
+<pre><code>@font-face {
+  font-family: &#39;MyIconFont&#39;;
+  src: url(&#39;MyIconFont.eot?&#39;) format(&#39;eot&#39;),
+       url(&#39;MyIconFont.woff&#39;) format(&#39;woff&#39;),
+       url(&#39;MyIconFont.ttf&#39;) format(&#39;truetype&#39;);
+}
+.icon {font-family: &#39;MyIconFont&#39;;}</code></pre>
+
+<p>And I&#8217;m good to go. Now let&#8217;s say, for example, that I have made the letter &#8220;A&#8221; in my font display an &#8220;Apple&#8221; icon. This would then create an &#8220;Apple&#8221; icon on my page:</p>
+
+<pre><code>&lt;span class=&quot;icon&quot;&gt;A&lt;/span&gt;</code></pre>
+
+<p>And it works. Like a charm. On just about any browser. Even IE8. SUPER!</p>
+
+<h1 id='enter_pseudoelements'>ENTER PSEUDO-ELEMENTS</h1>
+
+<p>Ok, great. But this font is for icons and not normal text so you don&#8217;t want random letters in your markup do you? No, of course you don&#8217;t. It&#8217;s messy and unnecessary and just plain wrong. So, as you probably already guessed, you should do something like this:</p>
+
+<pre><code>.icon {
+  font-family: &#39;MyIconFont&#39;;
+  font-size: 20px;
+  color: #FF0;
+}
+.icon.apple:before    {content: &#39;A&#39;;}
+.icon.twitter:before  {content: &#39;B&#39;;}
+.icon.facebook:before {content: &#39;C&#39;;}
+.icon.email:before    {content: &#39;D&#39;;}</code></pre>
+
+<p>&#8230;where each icon that is defined in your font (&#8220;Apple&#8221;) has its own semantic class name (.apple) which appends the corresponding letter (&#8221;A&#8221;) using the :before pseudo-element. This can also be done using data-attributes, but I prefer this method. Personal preference. So now, your markup should look like this:</p>
+
+<pre><code>&lt;span class=&quot;icon apple&quot;&gt;&lt;/span&gt;</code></pre>
+
+<p>And you are left with an apple icon. This is more or less the basic technique for using icon fonts. But don&#8217;t take my word for it, check out this <a href='http://css-tricks.com/examples/IconFont/' title='Icon Fonts are Awesome'>fantastic icon font demo page</a> built by CSS-Trick&#8217;s Chris Coyier.</p>
+
+<h1 id='the_pseudoelementfont_conflict'>THE PSEUDO-ELEMENT/FONT CONFLICT</h1>
+
+<p>So what&#8217;s the problem? IE8. Yes, IE8 supports @font-face and IE8 supports the :before pseudo-element. But IE8 does NOT like when you try to use them together. Don&#8217;t believe me? Why don&#8217;t you just fire-up IE8 (to Browserstack!) and head over to the <a href='http://css-tricks.com/examples/IconFont/' title='Icon Fonts are Awesome'>fantastic icon font demo page</a> I mentioned above.</p>
+
+<p>What&#8217;s that? It works for you? Great. It worked for me to. Now click on the refresh button. HAH! You SEE!? Try leaving your mouse outside browser frame. Now hover your mouse over the body. Are you seeing this too!?</p>
+
+<p>For those of you not following along at home, let me explain what&#8217;s happening: when the user loads the page in IE8 for the first time, the page more than likely renders just fine with all of the icons appearing normally like this:</p>
+
+<p><img alt='ie8 icons good' src='/img/icons-good.jpg' /></p>
+
+<h6 id='this_is_how_the_page_looks_in_ie8_on_the_initial_page_load_all_the_icons_appear_normally'>This is how the page looks in IE8 on the initial page load. All the icons appear normally.</h6>
+
+<p>But when the user refreshes the page, the icons disappear and only the :before pseudo-element letters appear (see image below) UNTIL the user hovers back over the body of the page. Then all the icons magically reappear.</p>
+
+<p><img alt='Bad IE8 Font Icons' src='/img/icons-bad.jpg' /></p>
+
+<h6 id='if_the_user_refreshes_the_page_and_leaves_the_cursor_outside_of_the_body_of_the_page_icons_wont_render_once_the_user_hovers_over_the_page_again_all_fonts_will_reappear'>If the user refreshes the page and leaves the cursor outside of the body of the page, icons won&#39;t render. Once the user hovers over the page again, all fonts will reappear.</h6>
+
+<h1 id='wtf_mate'>WTF, MATE?</h1>
+
+<p>Honestly, I don&#8217;t know. From what I can tell, IE8 waits to render a font after the whole page has loaded (or at least all font files have downloaded). And when the page is reloaded, the cached page loads faster than the font and IE8 doesn&#8217;t trigger loading the font until the user interacts with the page i.e.(pun totally intended) the user hovers over the body of the page. Best case scenario, this creates a Flash of Unstyled Content when the user refreshes via a keyboard shortcut. Worst case, well you have random letters all over the place.</p>
+
+<p>This is a problem I&#8217;ve been struggling with for weeks at Official.fm. Our HTML5 player relies heavily (read: entirely) on an icon font for everything. Play/skip/back buttons, social icons, navigation icons, etc.  And when you try to reload (or even just load sometimes) the player in IE8, well&#8230;</p>
+
+<p><img alt='LETTERS EVERYWHERE' src='http://i.qkme.me/3om838.jpg' /></p>
+
+<p>The only &#8220;solution&#8221; we&#8217;ve come up with is not using the :before pseudo-class in IE8 and instead, dynamically injecting the letters via JS. It&#8217;s a ridiculous work around but it&#8217;s the only way we can get the icons to render properly in IE8.</p>
+
+<p>So there you go. With the recent rise in the popularity of icon fonts, I don&#8217;t know why I haven&#8217;t heard of more people having this problem. Fortunately, IE8 is on it&#8217;s way out and every single day, this becomes less and less of an issue as more and more people dump IE8 and transition to truly modern browsers (IE9, don&#8217;t get too excited, I&#8217;m not talking to you).</p>
+    </section>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+
+    <script>
+      var _gaq=[['_setAccount','UA-5322170-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>

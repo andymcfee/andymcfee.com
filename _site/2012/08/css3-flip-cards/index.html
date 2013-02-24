@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> CSS3 Flip Cards |  Andy McFee UX Developer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header>
+      <a href="/" class="logo">Andy McFee</a>
+
+      <nav class="social-icons">
+        <a href="http://www.twitter.com/andymcfee" class="icon icon-twitter"></a>
+        <a href="http://www.github.com/andymcfee" class="icon icon-github"></a>
+        <a href="http://codepen.io/andymcfee" class="icon icon-codepen"></a>
+      </nav>
+    </header>
+
+    <div class="banner">
+      
+         CSS3 Flip Cards
+      
+    </div>
+
+    <section class="main">
+      <p>Every friday afternoon at Official.fm, we get to work on open source projects and things that interest us. The goal here is to take a mental break from the daily grind and put our skills to new uses.</p>
+
+<p>For my most recent project, I decided to make CSS &#8220;Flip Cards.&#8221; My goal was to create re-useable card-like elements that flip on hover (or tap!). Check it out:</p>
+
+<pre><code>Uh oh. I&#39;m having some problems embedding CodePens right now.  This pen will return shortly.</code></pre>
+
+<p>The HTML markup is fairly straight forward: each card is a container div (<code>.flip-card</code>) with two children: <code>.card-front</code> and <code>.card-back</code>.</p>
+
+<p>The CSS is where this party really starts&#8230; There are a two main things happening here: <code>backface-visibility</code> and <code>transform: rotate</code>.</p>
+
+<p>Oh, and before you go on, be aware that I&#8217;m just going to use the standard non-prefixed CSS3 properties in my examples. Check out the Codepen CSS for the Compass/SCSS version of what I&#8217;m talking about here.</p>
+
+<h3 id='baby_got_no_back'>Baby got no back</h3>
+
+<p>Imagine a book sitting on a table in front of you. You pick up that book and set it down so that you can read the back. Now, imagine that the back of the book is invisible so you just see the table.</p>
+
+<p>This is exactly what the CSS3 property <code>backface-visibility</code> allows you to do with any element. When set to <code>backface-visibility: hidden;</code> the user will see the element as they normally would until the element is flipped around using a CSS transform.</p>
+
+<p>In my Flip Cards example, both <code>.card-front</code> and <code>.card-back</code> are set to <code>backface-visibility: hidden;</code> and absolutely positioned to be on top of one another, but <code>.card-back</code> is rotated 180 degrees along the Y-axis so its invisible back is showing. When you flip them both around simultaneously, <code>.card-front</code> becomes invisible at the exact moment that <code>.card-back</code> becomes visible.</p>
+
+<p>Sweet.</p>
+
+<h3 id='every_now_and_then_i_get_a_little_bit_lonely'>Every now and then I get a little bit lonely</h3>
+
+<p>Ok, so I lied a bit in that last part when I said that <code>.card-back</code> was rotated 180° along the y-axis. It&#8217;s actually rotated -180°.</p>
+
+<p>&#8220;But Andy, Algebra 101! -180° is the same thing as 180°!&#8221;</p>
+
+<p>How dare you take that tone of voice with me. Rotating an object from 180° to 0° along a y-axis rotates in the opposite direction that rotating from -180° to 0° would. Still confused? Here:</p>
+
+<pre><code>Uh oh. I&#39;m having some problems embedding CodePens right now.  This pen will return shortly.</code></pre>
+
+<p>I&#8217;ve made the boxes wider and decreased the <code>perspective</code> a bit to make it a bit more obvious what&#8217;s going on here, but you should be able to tell that the back sides (<code>.card-back</code>) in the &#8220;bad&#8221; examples rotate the wrong direction, breaking the illusion of a physical &#8220;card&#8221; rotating.</p>
+
+<p>Subtle, but important!</p>
+
+<h3 id='but_can_i_use_it'>But can I use it?</h3>
+
+<p>Yes. But don&#8217;t expect it to work everywhere. It does degrade gracefully though. For the full 3D flip effect, you&#8217;re going to need a Webkit browser like Chrome and Safari. In Firefox &amp; IE10, the cards flip, but without any 3D effect. IE9 and down, the back side of the cards should just display by on hover because of the increased <code>z-index</code> of <code>.card-back</code> on hover.</p>
+
+<p>So there you have it. It&#8217;s a neat little effect with plenty of potential uses. Now, go forth and start flipping some shit!</p>
+    </section>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+
+    <script>
+      var _gaq=[['_setAccount','UA-5322170-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
