@@ -5,3 +5,5 @@ _site/
 *.css
 ideas.txt
 codekit-config.json
+Capfile
+config/
