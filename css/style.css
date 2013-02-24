@@ -251,6 +251,16 @@ nav {
     .logo {
       float: left; } }
 
+.social-icons .icon {
+  text-shadow: 1px 1px 0 #f5f9fa;
+  color: #c3c7c8;
+  font-size: 2rem;
+  margin: 0 0.25rem; }
+  .social-icons .icon:first-child {
+    margin-left: 0; }
+  .social-icons .icon:last-child {
+    margin-right: 0; }
+
 nav a {
   padding: 0; }
 @media (min-width: 44em) {
@@ -2538,16 +2548,6 @@ ul.icons {
     ul.icons li .icon-large:before,
     ul.icons li .icon-large:before {
       vertical-align: initial; }
-
-.social-icons .icon {
-  text-shadow: 1px 1px 0 #f5f9fa;
-  color: #c3c7c8;
-  font-size: 2rem;
-  margin: 0 0.25rem; }
-  .social-icons .icon:first-child {
-    margin-left: 0; }
-  .social-icons .icon:last-child {
-    margin-right: 0; }
 
 .icon-forrst:hover {
   color: #5b9a68; }
