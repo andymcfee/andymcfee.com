@@ -168,19 +168,14 @@ html {
 body {
   margin: 0;
   font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 300;
-  line-height: 1.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #555555;
   height: 100%;
   margin: 0;
   background-color: #e6eaeb;
   background-repeat: no-repeat;
   background-attachment: fixed; }
-  @media (min-width: 30em) {
-    body {
-      font-size: 1.25rem;
-      line-height: 1.85rem; } }
 
 * {
   -webkit-box-sizing: border-box;
@@ -323,6 +318,9 @@ nav a {
     .cp_embed_iframe {
       width: 68em !important;
       margin-left: -14rem; } }
+
+.comments {
+  margin-top: 4rem; }
 
 .container {
   margin-right: auto;
