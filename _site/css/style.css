@@ -177,7 +177,7 @@ body {
   background-color: #e6eaeb;
   background-repeat: no-repeat;
   background-attachment: fixed; }
-  @media (min-width: 30rem) {
+  @media (min-width: 30em) {
     body {
       font-size: 1.25rem;
       line-height: 1.85rem; } }
@@ -228,9 +228,9 @@ header {
   overflow: hidden;
   *zoom: 1;
   padding: 0; }
-  @media (min-width: 40rem) {
+  @media (min-width: 44em) {
     header {
-      width: 38rem;
+      width: 42rem;
       padding: 1rem;
       margin: 0 auto; } }
 
@@ -252,13 +252,13 @@ nav {
   text-shadow: 1px 1px 0 #f5f9fa; }
   .logo:hover {
     color: #f89406; }
-  @media (min-width: 40rem) {
+  @media (min-width: 44em) {
     .logo {
       float: left; } }
 
 nav a {
   padding: 0; }
-@media (min-width: 40rem) {
+@media (min-width: 44em) {
   nav {
     float: right; } }
 
@@ -270,7 +270,7 @@ nav a {
   padding: 2rem 1rem;
   text-align: center;
   text-rendering: optimizelegibility; }
-  @media (min-width: 40rem) {
+  @media (min-width: 44em) {
     .banner {
       font-size: 3rem;
       line-height: 3rem;
@@ -279,14 +279,14 @@ nav a {
 .main {
   width: 100%;
   padding: 1rem; }
-  @media (min-width: 30rem) {
+  @media (min-width: 30em) {
     .main {
       padding: 2rem;
       width: 30rem;
       margin: 0 auto; } }
-  @media (min-width: 40rem) {
+  @media (min-width: 44em) {
     .main {
-      width: 40rem; } }
+      width: 42rem; } }
 
 .entries li {
   margin: 2rem; }
@@ -307,21 +307,21 @@ nav a {
 
 .cp_embed_iframe {
   width: 100%; }
-  @media (min-width: 44rem) {
+  @media (min-width: 48em) {
     .cp_embed_iframe {
-      width: 44rem !important;
+      width: 48em !important;
       margin-left: -4rem; } }
-  @media (min-width: 48rem) {
+  @media (min-width: 52em) {
     .cp_embed_iframe {
-      width: 48rem !important;
+      width: 52em !important;
       margin-left: -6rem; } }
-  @media (min-width: 56rem) {
+  @media (min-width: 60em) {
     .cp_embed_iframe {
-      width: 56rem !important;
+      width: 60em !important;
       margin-left: -10rem; } }
-  @media (min-width: 72rem) {
+  @media (min-width: 76em) {
     .cp_embed_iframe {
-      width: 64rem !important;
+      width: 68em !important;
       margin-left: -14rem; } }
 
 .container {

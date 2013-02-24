@@ -18,7 +18,7 @@ converted: false
 
 
 
-I love icon fonts. Who doesn't? Nobody. That's who. They are just super and they pretty much work in every browser ([IE has supported @font-face since IE 4][http://www.webfonts.info/wiki/index.php?title=@font-face_browser_support]! Chew on that for a while.) and I could talk about them for hours, but that's not why I'm writing this post. No, I'm writing this because of an oddly prominent bug I've encountered with icon fonts and IE8 and pseudo elements.
+I love icon fonts. Who doesn't? Nobody. That's who. They are just super and they pretty much work in every browser ([IE has supported @font-face since IE 4](http://www.webfonts.info/wiki/index.php?title=@font-face_browser_support)! Chew on that for a while.) and I could talk about them for hours, but that's not why I'm writing this post. No, I'm writing this because of an oddly prominent bug I've encountered with icon fonts and IE8 and pseudo elements.
 
 
 ICON FONTS 101
@@ -61,13 +61,13 @@ Ok, great. But this font is for icons and not normal text so you don't want rand
 
     <span class="icon apple"></span>
 
-And you are left with an apple icon. This is more or less the basic technique for using icon fonts. But don't take my word for it, check out this [fantastic icon font demo page][http://css-tricks.com/examples/IconFont/ "Icon Fonts are Awesome"] built by CSS-Trick's Chris Coyier.
+And you are left with an apple icon. This is more or less the basic technique for using icon fonts. But don't take my word for it, check out this [fantastic icon font demo page](http://css-tricks.com/examples/IconFont/ "Icon Fonts are Awesome") built by CSS-Trick's Chris Coyier.
 
 
 THE PSEUDO-ELEMENT/FONT CONFLICT
 ====================================
 
-So what's the problem? IE8. Yes, IE8 supports @font-face and IE8 supports the :before pseudo-element. But IE8 does NOT like when you try to use them together. Don't believe me? Why don't you just fire-up IE8 (to Browserstack!) and head over to the [fantastic icon font demo page][http://css-tricks.com/examples/IconFont/ "Icon Fonts are Awesome"] I mentioned above.
+So what's the problem? IE8. Yes, IE8 supports @font-face and IE8 supports the :before pseudo-element. But IE8 does NOT like when you try to use them together. Don't believe me? Why don't you just fire-up IE8 (to Browserstack!) and head over to the [fantastic icon font demo page](http://css-tricks.com/examples/IconFont/ "Icon Fonts are Awesome") I mentioned above.
 
 What's that? It works for you? Great. It worked for me to. Now click on the refresh button. HAH! You SEE!? Try leaving your mouse outside browser frame. Now hover your mouse over the body. Are you seeing this too!?
 
