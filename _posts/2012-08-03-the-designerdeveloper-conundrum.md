@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Designer/Developer Conundrum
+title: The Designer / Developer Conundrum
 tags:
 - Blog
 status: publish
