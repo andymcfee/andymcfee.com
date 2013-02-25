@@ -68,7 +68,7 @@ a.text-success:hover
 // -------------------------
 
 h1, h2, h3, h4, h5, h6
-  margin: $baseLineHeight 0
+  margin: $baseLineHeight * 2 0 $baseLineHeight
   font-family: $headingsFontFamily
   font-weight: $headingsFontWeight
   line-height: $baseLineHeight
@@ -76,17 +76,22 @@ h1, h2, h3, h4, h5, h6
   +text-shadow
   text-rendering: optimizelegibility
   // Fix the character spacing for headings
+  &:first-child
+    margin-top: $baseLineHeight
   small
     font-weight: normal
     line-height: 1
     color: $grayLight
 
 h1
-  font-size: $baseFontSize + 1
-
+  font-size: $baseFontSize + .75
+  @media (min-width: $arya)
+    font-size: $baseFontSize + 1
 // ~38px
 h2
-  font-size: $baseFontSize + .75
+  font-size: $baseFontSize + .5
+  @media (min-width: $arya)
+    font-size: $baseFontSize + .75
 
 // ~32px
 h3

@@ -413,23 +413,31 @@ a.text-success:hover {
   color: #356635; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2rem 0;
+  margin: 4rem 0 2rem;
   font-family: inherit;
   font-weight: bold;
   line-height: 2rem;
   color: inherit;
   text-shadow: 1px 1px 0 #f5f9fa;
   text-rendering: optimizelegibility; }
+  h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+    margin-top: 2rem; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-weight: normal;
     line-height: 1;
     color: #999999; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 1.75rem; }
+  @media (min-width: 44em) {
+    h1 {
+      font-size: 2rem; } }
 
 h2 {
-  font-size: 1.75rem; }
+  font-size: 1.5rem; }
+  @media (min-width: 44em) {
+    h2 {
+      font-size: 1.75rem; } }
 
 h3 {
   font-size: 1.5rem; }
