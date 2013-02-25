@@ -79,9 +79,7 @@
         <description>&lt;p&gt;Every friday afternoon at Official.fm, we get to work on open source projects and things that interest us. The goal here is to take a mental break from the daily grind and put our skills to new uses.&lt;/p&gt;
 
 &lt;p&gt;For my most recent project, I decided to make CSS &amp;#8220;Flip Cards.&amp;#8221; My goal was to create re-useable card-like elements that flip on hover (or tap!). Check it out:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Uh oh. I&amp;#39;m having some problems embedding CodePens right now.  This pen will return shortly.&lt;/code&gt;&lt;/pre&gt;
-
+&lt;pre class='codepen' data-height='430' data-href='eyahr' data-safe='true' data-type='result' data-user='andymcfee'&gt; &lt;code&gt; &lt;/code&gt; &lt;a href='http://codepen.io/andymcfee/pen/eyahr'&gt;Check out this Pen!&lt;/a&gt; &lt;/pre&gt;&lt;script src='http://codepen.io/assets/embed/ei.js'&gt; &lt;/script&gt;
 &lt;p&gt;The HTML markup is fairly straight forward: each card is a container div (&lt;code&gt;.flip-card&lt;/code&gt;) with two children: &lt;code&gt;.card-front&lt;/code&gt; and &lt;code&gt;.card-back&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;The CSS is where this party really starts&amp;#8230; There are a two main things happening here: &lt;code&gt;backface-visibility&lt;/code&gt; and &lt;code&gt;transform: rotate&lt;/code&gt;.&lt;/p&gt;
@@ -105,9 +103,7 @@
 &lt;p&gt;&amp;#8220;But Andy, Algebra 101! -180° is the same thing as 180°!&amp;#8221;&lt;/p&gt;
 
 &lt;p&gt;How dare you take that tone of voice with me. Rotating an object from 180° to 0° along a y-axis rotates in the opposite direction that rotating from -180° to 0° would. Still confused? Here:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Uh oh. I&amp;#39;m having some problems embedding CodePens right now.  This pen will return shortly.&lt;/code&gt;&lt;/pre&gt;
-
+&lt;pre class='codepen' data-height='300' data-href='wvhmy' data-safe='true' data-type='result' data-user='andymcfee'&gt; &lt;code&gt; &lt;/code&gt; &lt;a href='http://codepen.io/andymcfee/pen/wvhmy'&gt;Check out this Pen!&lt;/a&gt; &lt;/pre&gt;&lt;script src='http://codepen.io/assets/embed/ei.js'&gt; &lt;/script&gt;
 &lt;p&gt;I&amp;#8217;ve made the boxes wider and decreased the &lt;code&gt;perspective&lt;/code&gt; a bit to make it a bit more obvious what&amp;#8217;s going on here, but you should be able to tell that the back sides (&lt;code&gt;.card-back&lt;/code&gt;) in the &amp;#8220;bad&amp;#8221; examples rotate the wrong direction, breaking the illusion of a physical &amp;#8220;card&amp;#8221; rotating.&lt;/p&gt;
 
 &lt;p&gt;Subtle, but important!&lt;/p&gt;
@@ -185,9 +181,7 @@
         <description>&lt;p&gt;Recently, the adjacent selector (+) and I have become the best of friends. When first I learned of the adjacent selector back in the day, I found little use for simply targeting the element next to another element in my markup. However, once I realized that, when used with psudeo-class selectors such as :checked, the adjacent selector can be quite powerful, a whole world of opportunities opened up.&lt;/p&gt;
 
 &lt;p&gt;One idea I had was to make a toggle switch using a checkbox, a label and an adjacent selector. Here is what I came up with:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://codepen.io/andymcfee/full/rlntf' title='CSS3 Toggle Switch Demo'&gt;Uh oh. I&amp;#8217;m having problems embedding CodePens right now. Click here to see this demo.&lt;/a&gt;&lt;/p&gt;
-
+&lt;pre class='codepen' data-height='530' data-href='rlntf' data-safe='true' data-type='result' data-user='andymcfee'&gt; &lt;code&gt; &lt;/code&gt; &lt;a href='http://codepen.io/andymcfee/pen/rlntf'&gt;Check out this Pen!&lt;/a&gt; &lt;/pre&gt;&lt;script src='http://codepen.io/assets/embed/ei.js'&gt; &lt;/script&gt;
 &lt;h1 id='whats_going_on_up_there'&gt;What&amp;#8217;s going on up there?&lt;/h1&gt;
 
 &lt;p&gt;Basically, I have a slider built with 3 parts:&lt;/p&gt;
@@ -214,7 +208,7 @@
 
 &lt;p&gt;Anyway, the bug only effects my nice rounded corners and has nothing to do with the actual toggle effect so really it&amp;#8217;s more of a progressive enhancement. Shame on webkit nevertheless. Fix this bug please!&lt;/p&gt;
 
-&lt;p&gt;Well, I hope this has been educational. You can check out &lt;a href='http://codepen.io/andymcfee/full/rlntf' title='CSS3 Toggle Switch Demo'&gt;my demo&lt;/a&gt; if you want.&lt;/p&gt;</description>
+&lt;p&gt;Well, I hope this has been educational.&lt;/p&gt;</description>
         <pubDate>Tue, 01 May 2012 00:00:00 +0200</pubDate>
         <link>http://andymcfee.com/2012/05/css3-toggle-switch-a-ui-alternative-to-checkboxes/</link>
         <guid isPermaLink="true">http://andymcfee.com/2012/05/css3-toggle-switch-a-ui-alternative-to-checkboxes/</guid>

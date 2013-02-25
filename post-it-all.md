@@ -11,6 +11,10 @@ published: true
 Markdown: Basics
 ================
 
+> Anyone who stops learning is old, whether twenty or eighty. Anyone who keeps learning stays young. The greatest thing you can do is keep your mind young.
+>
+><cite>Mark Twain</cite>
+
 # h1 and a little bit of text
 ## h2 and a little bit of text
 ### h3 and a little bit of text
@@ -27,6 +31,8 @@ every feature, but Markdown should be very easy to pick up simply by
 looking at a few examples of it in action. The examples on this page
 are written in a before/after style, showing example syntax and the
 HTML output produced by Markdown.
+
+
 
 <pre class="codepen" data-height="500" data-type="result" data-href="rlntf" data-user="andymcfee" data-safe="true"> <code> </code> <a href="http://codepen.io/andymcfee/pen/rlntf">Check out this Pen!</a> </pre>
 <script src="http://codepen.io/assets/embed/ei.js"> </script>
@@ -50,6 +56,10 @@ by one or more blank lines. (A blank line is any line that looks like
 a blank line -- a line containing nothing but spaces or tabs is
 considered blank.) Normal paragraphs should not be indented with
 spaces or tabs.
+
+> Anyone who stops learning is old, whether twenty or eighty. Anyone who keeps learning stays young. The greatest thing you can do is keep your mind young.
+>
+><cite>Mark Twain</cite>
 
 Markdown offers two styles of headers: *Setext* and *atx*.
 Setext-style headers for `<h1>` and `<h2>` are created by

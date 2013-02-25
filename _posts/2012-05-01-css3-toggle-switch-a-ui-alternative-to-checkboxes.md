@@ -12,12 +12,14 @@ status: publish
 type: post
 published: true
 meta:
+comments: true
 ---
 Recently, the adjacent selector (+) and I have become the best of friends. When first I learned of the adjacent selector back in the day, I found little use for simply targeting the element next to another element in my markup.  However, once I realized that, when used with psudeo-class selectors such as :checked, the adjacent selector can be quite powerful, a whole world of opportunities opened up.
 
 One idea I had was to make a toggle switch using a checkbox, a label and an adjacent selector. Here is what I came up with:
 
-[Uh oh. I'm having problems embedding CodePens right now.  Click here to see this demo.](http://codepen.io/andymcfee/full/rlntf "CSS3 Toggle Switch Demo")
+<pre class="codepen" data-height="530" data-type="result" data-href="rlntf" data-user="andymcfee" data-safe="true"> <code> </code> <a href="http://codepen.io/andymcfee/pen/rlntf">Check out this Pen!</a> </pre>
+<script src="http://codepen.io/assets/embed/ei.js"> </script>
 
 What's going on up there?
 =========================
@@ -43,4 +45,4 @@ Want to test the bug out?  Uncomment the border-radius and border declarations i
 
 Anyway, the bug only effects my nice rounded corners and has nothing to do with the actual toggle effect so really it's more of a progressive enhancement.  Shame on webkit nevertheless. Fix this bug please!
 
-Well, I hope this has been educational. You can check out [my demo](http://codepen.io/andymcfee/full/rlntf "CSS3 Toggle Switch Demo") if you want.
+Well, I hope this has been educational.

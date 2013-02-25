@@ -13,7 +13,7 @@ type: post
 published: true
 meta:
   _edit_last: "1"
-converted: false
+comments: true
 ---
 
 

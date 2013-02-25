@@ -1,0 +1,109 @@
+header
+  +clearfix
+  padding: 0
+  @media (min-width: $arya)
+    width: 42rem
+    padding: 1rem
+    margin: 0 auto
+
+.logo,
+nav
+  +clearfix
+  font-size: 2rem
+  line-height: 2rem
+  padding: 0
+  margin: 1rem 0
+  display: block
+  text-align: center
+  overflow: visible
+
+.logo
+  font-weight: bold
+  color: $socialColor
+  +text-shadow
+  &:hover
+    color: $orange
+  @media (min-width: $arya)
+    float: left
+
+.social-icons
+  .icon
+    +text-shadow
+    color: $socialColor
+    font-size: 2rem
+    margin: 0 .25rem
+    &:first-child
+      margin-left: 0
+    &:last-child
+      margin-right: 0
+
+
+nav
+  a
+    padding: 0
+
+  @media (min-width: $arya)
+    float: right
+
+
+.banner
+  +text-shadow
+  font-size: 2.5rem
+  font-weight: bold
+  line-height: 2.5rem
+  padding: 2rem 1rem
+  text-align: center
+  text-rendering: optimizelegibility
+  @media (min-width: $arya)
+    font-size: 3rem
+    line-height: 3rem
+    padding: 2rem 10%
+
+
+
+$contentWidth: $arya
+.main
+  width: 100%
+  padding: 1rem
+  font-size: $baseFontSize
+  @media (min-width: $bran)
+    padding: 2rem
+    width: 30rem
+    margin: 0 auto
+  @media (min-width: $arya)
+    width: 42rem
+
+.entries
+  @extend ul.unstyled
+  li
+    margin: 2rem
+    &:first-child
+      margin-top: 0
+    &:last-child
+      margin-bottom: 0
+  h3,
+  h6
+    text-align: center
+    margin: 0
+  h3
+    line-height: 1.75rem
+    font-size: 1.75rem
+  h6
+    font-weight: normal
+    color: $bodyBackground - 40
+
+.cp_embed_iframe,
+blockquote
+  width: 100%
+  display: block
+  @media (min-width: $arya + 8)
+    width: 48rem !important
+    margin-left: -5rem
+  @media (min-width: $arya + 16)
+    width: 64rem !important
+    margin-left: -13rem
+
+
+
+.comments
+  margin-top: 4rem
