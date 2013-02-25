@@ -287,7 +287,8 @@ nav a {
 
 .main {
   width: 100%;
-  padding: 1rem; }
+  padding: 1rem;
+  font-size: 1rem; }
   @media (min-width: 30em) {
     .main {
       padding: 2rem;
@@ -316,22 +317,10 @@ nav a {
 
 .cp_embed_iframe {
   width: 100%; }
-  @media (min-width: 48em) {
-    .cp_embed_iframe {
-      width: 48em !important;
-      margin-left: -4rem; } }
   @media (min-width: 52em) {
     .cp_embed_iframe {
-      width: 52em !important;
-      margin-left: -6rem; } }
-  @media (min-width: 60em) {
-    .cp_embed_iframe {
-      width: 60em !important;
-      margin-left: -10rem; } }
-  @media (min-width: 76em) {
-    .cp_embed_iframe {
-      width: 68em !important;
-      margin-left: -14rem; } }
+      width: 48rem !important;
+      margin-left: -5rem; } }
 
 .comments {
   margin-top: 4rem; }

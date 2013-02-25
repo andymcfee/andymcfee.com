@@ -7,7 +7,7 @@ permalink:  /:year/:month/:title/
 #paginate:    5
 #paginate_file: posts.html
 
-exclude:    README.md, sass, ideas.txt, config, Capfile, config.rb
+exclude:    README.md, sass, ideas.txt, config, Capfile, config.rb, drafts
 markdown:   maruku
 
 

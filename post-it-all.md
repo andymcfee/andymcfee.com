@@ -1,16 +1,14 @@
 ---
 layout: default
-title: Post It All - The post with a really long title and a ton of sample content
-slug: The post to test all posts.
+title: Post It All - A Testing Page
 tags:
 - test
 - sample
 - template
-type: page
 published: true
 ---
 
-Markdown: Basicss
+Markdown: Basics
 ================
 
 # h1 and a little bit of text
@@ -30,7 +28,7 @@ looking at a few examples of it in action. The examples on this page
 are written in a before/after style, showing example syntax and the
 HTML output produced by Markdown.
 
-<pre class="codepen" data-height="300" data-type="result" data-href="rlntf" data-user="andymcfee" data-safe="true"><code></code><a href="http://codepen.io/andymcfee/pen/rlntf">Check out this Pen!</a></pre>
+<pre class="codepen" data-height="500" data-type="result" data-href="rlntf" data-user="andymcfee" data-safe="true"> <code> </code> <a href="http://codepen.io/andymcfee/pen/rlntf">Check out this Pen!</a> </pre>
 <script src="http://codepen.io/assets/embed/ei.js"> </script>
 
 It's also helpful to simply try Markdown out; the [Dingus] [d] is a
