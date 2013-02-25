@@ -31,7 +31,7 @@ are written in a before/after style, showing example syntax and the
 HTML output produced by Markdown.
 
 <pre class="codepen" data-height="300" data-type="result" data-href="rlntf" data-user="andymcfee" data-safe="true"><code></code><a href="http://codepen.io/andymcfee/pen/rlntf">Check out this Pen!</a></pre>
-<script src="http://codepen.io/assets/embed/ei.js"></script>
+<script src="http://codepen.io/assets/embed/ei.js"> </script>
 
 It's also helpful to simply try Markdown out; the [Dingus] [d] is a
 web application that allows you type your own Markdown-formatted text
