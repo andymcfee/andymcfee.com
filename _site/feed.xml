@@ -123,6 +123,64 @@
       </item>
     
       <item>
+        <title>The Designer/Developer Conundrum</title>
+        <description>&lt;p&gt;What do you call someone who designs and builds things for the web? Web designer? Front-end developer? Web designer/developer?&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve been trying to figure this one out for years now and I suspect I&amp;#8217;m not the only one. The web has grown and changed so much in the past few years that the lines between traditional roles for web people have been blurred. Sure, you still have graphic designers, back-end developers, front-end developers, etc. But what about those of us who fit right in the middle? Those of us who:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Design web sites or interface elements for the web&lt;/li&gt;
+
+&lt;li&gt;Write HTML, CSS, jQuery and maybe a little JS&lt;/li&gt;
+
+&lt;li&gt;Build responsive designs that adapt the web to phones, tablets, monitors, retina displays, TVs, refrigerators&amp;#8230;&lt;/li&gt;
+
+&lt;li&gt;Ensure the web site/app is functional on any supported browser or device&lt;/li&gt;
+
+&lt;li&gt;Love writing, rewriting and refactoring markup to make it cleaner, better and, gosh-darnit, more efficient&lt;/li&gt;
+
+&lt;li&gt;And, most importantly, create memorable user experiences&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I suppose the easy answer is a &amp;#8220;Web Designer/Front-end Developer.&amp;#8221; But it doesn&amp;#8217;t &lt;em&gt;feel&lt;/em&gt; like two different jobs, so why does it require two &lt;em&gt;different&lt;/em&gt; titles? Where&amp;#8217;s the line between &amp;#8220;web designer&amp;#8221; and &amp;#8220;front-end developer&amp;#8221;? When I&amp;#8217;m tweaking a CSS gradient to get it just right, am I designing or developing? When I write a SASS mixin to style buttons across my site, am I designing or developing?&lt;/p&gt;
+
+&lt;p&gt;I think this lack of definition is why you find so many people calling themselves things like &amp;#8220;CSS Ninja&amp;#8221;, &amp;#8220;Web Guru&amp;#8221; and other abstract titles. While I don&amp;#8217;t mind these creative titles, I would like for the web industry to establish a bit more definition and consistency in labeling the role of the designer/developer (D/D from here on out).&lt;/p&gt;
+
+&lt;h4 id='integrator'&gt;Integrator&lt;/h4&gt;
+
+&lt;p&gt;Let&amp;#8217;s just get this one out of the way first. Integrator: one who integrates a designer&amp;#8217;s mockup into a web site. I&amp;#8217;d rather be called &amp;#8220;Markup Slave&amp;#8221;. Or intern. This one&amp;#8217;s really only half serious and I&amp;#8217;m probably making a bigger deal out of it than I should, but to be thought of as an &amp;#8220;integrator&amp;#8221; or a go-between for a design team and a dev team minimizes what we do and implies that your role is simply to take input and generate output. No creativity. No freedom. Take this. Make that. Rinse. Repeat.&lt;/p&gt;
+
+&lt;p&gt;The sad part is this is often how D/Ds are viewed by those who don&amp;#8217;t fully understand our role and value to an organization, especially in smaller companies.&lt;/p&gt;
+
+&lt;p&gt;/rant&lt;/p&gt;
+
+&lt;h4 id='frontend_developer'&gt;Front-end Developer&lt;/h4&gt;
+
+&lt;p&gt;If you work on a tech team and you are primarily responsible for writing HTML/CSS/JS, this is probably your title. Front-end developers usually have expert knowledge of HTML, CSS and JS. Front-end dev job postings often require strong knowledge JS, not just libraries like jQuery. This is where I have a problem with the front-end developer title for a D/D. I would wager that while most D/Ds can at least write some basic jQuery, their &amp;#8220;pure JS&amp;#8221; skills are usually not so great. Front-end developer just excludes too much of the design/creative side of a D/D and one could make an argument that it&amp;#8217;s really a completely different role than a D/D role altogether.&lt;/p&gt;
+
+&lt;h4 id='ui_designer'&gt;UI Designer&lt;/h4&gt;
+
+&lt;p&gt;I believe this is the most common answer to the problem. UI Designer gets right to the point: you design user interfaces. It distinguishes you from a traditional graphic designer and usually implies a solid understanding of at least HTML &amp;amp; CSS. Not bad. A bit more focused on the design side, but I think any really great UI designer is going to be able to turn their designs into functioning mockups if not final products.&lt;/p&gt;
+
+&lt;h4 id='interface_developer'&gt;Interface Developer&lt;/h4&gt;
+
+&lt;p&gt;This one came at the suggestion of &lt;a href='https://twitter.com/randyjensen'&gt;@randyjensen&lt;/a&gt;, whose self-title of &lt;a href='http://www.randyjensen.com/'&gt;Interaction Philanthropist and Designoper&lt;/a&gt; I love, after he asked his front-end dev followers to share their business card title. I chimed in with &amp;#8220;UI Designer/Front-end developer&amp;#8221; and he suggested &amp;#8220;Interface Developer&amp;#8221; as a compromise. I immediately loved it. Why didn&amp;#8217;t I think of that? &amp;#8220;UI Developer&amp;#8221; would also be nice just to bring the user back into the equation.&lt;/p&gt;
+
+&lt;p&gt;Both are quite unique and I wouldn&amp;#8217;t be surprised to see an increase in their popularity in the coming years as CSS3 and eventually CSS4 continue to blur the line between interaction development and UI design.&lt;/p&gt;
+
+&lt;h4 id='survey_says'&gt;Survey says&amp;#8230;&lt;/h4&gt;
+
+&lt;p&gt;We design and we develop and it&amp;#8217;s hard to pick a single title that encompasses it all without using ye ole &amp;#8221;/&amp;#8221;. Personally, I like either UI Designer or UI Developer, depending on where your strengths lie. They both work well as an accurate label for a D/D. Or, if you think I&amp;#8217;m psychotic for writing this tirade against using a &amp;#8221;/&amp;#8221; in your title, then go with UI Designer/Developer. Or something else entirely.&lt;/p&gt;
+
+&lt;p&gt;There&amp;#8217;s always &amp;#8220;Webmaster&amp;#8221;&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;If you fall into the D/D middle ground, leave a comment and let me know your actual business card title as well as how you would refer to yourself your personal about page.&lt;/p&gt;</description>
+        <pubDate>Fri, 03 Aug 2012 00:00:00 +0200</pubDate>
+        <link>http://andymcfee.com/2012/08/the-designerdeveloper-conundrum/</link>
+        <guid isPermaLink="true">http://andymcfee.com/2012/08/the-designerdeveloper-conundrum/</guid>
+      </item>
+    
+      <item>
         <title>CSS3 Toggle Switch - A UI Alternative to Checkboxes</title>
         <description>&lt;p&gt;Recently, the adjacent selector (+) and I have become the best of friends. When first I learned of the adjacent selector back in the day, I found little use for simply targeting the element next to another element in my markup. However, once I realized that, when used with psudeo-class selectors such as :checked, the adjacent selector can be quite powerful, a whole world of opportunities opened up.&lt;/p&gt;
 
