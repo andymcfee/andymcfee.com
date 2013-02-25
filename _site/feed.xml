@@ -7,6 +7,52 @@
     <atom:link href="http://andymcfee.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Embedding CodePens into Jekyll Blogs</title>
+        <description>&lt;p&gt;I love &lt;a href='http://codepen.io'&gt;CodePen&lt;/a&gt;. I also love &lt;a href='http://jekyllrb.com/'&gt;Jekyll&lt;/a&gt;. But apparently, they don&amp;#8217;t play well together out of the box. This was one of the few frustrations I had when moving my blog from WordPress to Jekyll. But fear not, for I have found a way to embed CodePens once more!&lt;/p&gt;
+
+&lt;h1 id='out_of_async'&gt;Out of async&lt;/h1&gt;
+
+&lt;p&gt;Well, the problem isn&amp;#8217;t Jekyll &lt;em&gt;specifically&lt;/em&gt;, it&amp;#8217;s actually Markdown. If your Jekyll blog is all in &lt;code&gt;.html&lt;/code&gt; files, then (I assume) you won&amp;#8217;t have this problem. But you write all you posts in Markdown now because it&amp;#8217;s 2013 and that&amp;#8217;s what all the cool kids are doing these days, right?&lt;/p&gt;
+
+&lt;p&gt;Anyway, if you go to CodePen, copy your embed code and paste it into your post, it should look something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;pre class=&amp;quot;codepen&amp;quot; data-height=&amp;quot;470&amp;quot; data-type=&amp;quot;result&amp;quot; data-href=&amp;quot;kjmBd&amp;quot; data-user=&amp;quot;andymcfee&amp;quot; data-safe=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;code&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;a href=&amp;quot;http://codepen.io/andymcfee/pen/kjmBd&amp;quot;&amp;gt;Check out this Pen!&amp;lt;/a&amp;gt;&amp;lt;/pre&amp;gt;
+&amp;lt;script async src=&amp;quot;http://codepen.io/assets/embed/ei.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pretty simple, right? The problem is, when you try to generate your _site, you will get a parsing error that says:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;REXML could not parse this XML/HTML:
+&amp;lt;script async src=&amp;quot;http://codepen.io/assets/embed/ei.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I don&amp;#8217;t know enough about how Markdown parses HTML and script tags to explain what&amp;#8217;s wrong here, but I do know that if you remove &lt;code&gt;async&lt;/code&gt; from the script tag, your REXML parsing problem will be solved.&lt;/p&gt;
+
+&lt;h1 id='i_need_some_space'&gt;I need some space&lt;/h1&gt;
+
+&lt;p&gt;Ok so now your page will render, but everything on your page after your newly embedded content will be broken. This is the result of &lt;a href='https://github.com/mojombo/jekyll/wiki/Markup-Problems'&gt;issue with the Maruku markdown engine&lt;/a&gt;, but there&amp;#8217;s an easy fix here too: just add a space inbetween &lt;strong&gt;all&lt;/strong&gt;* of your embedded tags (&lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt;) like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;pre class=&amp;quot;codepen&amp;quot; data-height=&amp;quot;470&amp;quot; data-type=&amp;quot;result&amp;quot; data-href=&amp;quot;kjmBd&amp;quot; data-user=&amp;quot;andymcfee&amp;quot; data-safe=&amp;quot;true&amp;quot;&amp;gt; &amp;lt;code&amp;gt; &amp;lt;/code&amp;gt; &amp;lt;a href=&amp;quot;http://codepen.io/andymcfee/pen/kjmBd&amp;quot;&amp;gt;Check out this Pen!&amp;lt;/a&amp;gt; &amp;lt;/pre&amp;gt;
+&amp;lt;script src=&amp;quot;http://codepen.io/assets/embed/ei.js&amp;quot;&amp;gt; &amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And there you go! Your CodePen is now embedded and should work just fine on your site.&lt;/p&gt;
+
+&lt;h1 id='tldr'&gt;tl;dr&lt;/h1&gt;
+
+&lt;p&gt;To embed CodePens onto your Jekyll-based blog using markdown syntax&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remove &lt;code&gt;async&lt;/code&gt; from the script tag&lt;/li&gt;
+
+&lt;li&gt;Put a space between &lt;strong&gt;every&lt;/strong&gt; embedded tag like so: &lt;code&gt;&amp;lt;code&amp;gt; &amp;lt;/code&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now, enjoy this HTML/CSS Calculator Pen I&amp;#8217;ve been working on:&lt;/p&gt;
+&lt;pre class='codepen' data-height='470' data-href='kjmBd' data-safe='true' data-type='result' data-user='andymcfee'&gt; &lt;code&gt; &lt;/code&gt; &lt;a href='http://codepen.io/andymcfee/pen/kjmBd'&gt;Check out this Pen!&lt;/a&gt; &lt;/pre&gt;&lt;script src='http://codepen.io/assets/embed/ei.js'&gt; &lt;/script&gt;</description>
+        <pubDate>Mon, 25 Feb 2013 00:00:00 +0100</pubDate>
+        <link>http://andymcfee.com/2013/02/embedding-codepens-into-jekyll-blogs/</link>
+        <guid isPermaLink="true">http://andymcfee.com/2013/02/embedding-codepens-into-jekyll-blogs/</guid>
+      </item>
+    
+      <item>
         <title>Reset</title>
         <description>&lt;p&gt;Well, I&amp;#8217;ve done it again. I&amp;#8217;ve redesigned my site/blog.&lt;/p&gt;
 
