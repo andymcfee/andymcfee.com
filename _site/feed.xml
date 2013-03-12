@@ -7,6 +7,132 @@
     <atom:link href="http://andymcfee.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>CSS Columns in the Wild</title>
+        <description>&lt;p&gt;From a UX perspective, CSS3 columns can be dangerous. People instincitively want to layout content in columns because &amp;#8220;that&amp;#8217;s how newspapers do it.&amp;#8221; And it works for newspaper and magazines because their medium has a fixed width and columns help to make content more readable on a page. However, in the digital world, when a user reads to the bottom of a column they have to scroll back to the top to continue reading. That&amp;#8217;s a bad UX.&lt;/p&gt;
+
+&lt;p&gt;Which has led me to wonder: when &lt;em&gt;could&lt;/em&gt; I use CSS columns? Well, I think I&amp;#8217;ve found my first reasonable use case for them.&lt;/p&gt;
+
+&lt;h1 id='too_much_space'&gt;Too Much Space&lt;/h1&gt;
+
+&lt;p&gt;Responsive grids are great. The main idea behind a responsive grid is that you have a column-based grid which stacks the columns at smaller viewport widths.&lt;/p&gt;
+
+&lt;p&gt;Take this three column layout:&lt;/p&gt;
+&lt;div class='grid-contain'&gt;
+  &lt;div class='grid-col'&gt;
+    &lt;h6&gt;First&lt;/h6&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Hi, I'm list item 1&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 2&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 3&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 4&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class='grid-col'&gt;
+    &lt;h6&gt;Second&lt;/h6&gt;
+    &lt;p&gt;I'm the second column&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class='grid-col'&gt;
+    &lt;h6&gt;Third&lt;/h6&gt;
+    &lt;p&gt;And I'm the third grid column.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Given enough room, the columns stack side-by-side. At smaller viewports, your layout will look more like this:&lt;/p&gt;
+&lt;div class='grid-contain stack'&gt;
+  &lt;div class='grid-col'&gt;
+    &lt;h6&gt;First&lt;/h6&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Hi, I'm list item 1&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 2&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 3&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 4&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class='grid-col'&gt;
+    &lt;h6&gt;Second&lt;/h6&gt;
+    &lt;p&gt;I'm the second column&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class='grid-col'&gt;
+    &lt;h6&gt;Third&lt;/h6&gt;
+    &lt;p&gt;And I'm the third grid column.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;#8230;well, the columns are now stacked, but there&amp;#8217;s a quite a bit of empty space in the First section, especially since my &lt;code&gt;li&lt;/code&gt; content is very short. It&amp;#8217;d be great if we could somehow magically spread that content across the container&amp;#8230;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ul {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -ms-column-count: 2;
+  -o-column-count: 2;
+  column-count: 2;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Boom. CSS Columns.&lt;/p&gt;
+&lt;div class='grid-contain stack'&gt;
+  &lt;div class='grid-col cols'&gt;
+    &lt;h6&gt;First w/ CSS Cols&lt;/h6&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Hi, I'm list item 1&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 2&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 3&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 4&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class='grid-col'&gt;
+    &lt;h6&gt;Second&lt;/h6&gt;
+    &lt;p&gt;I'm the second column&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class='grid-col'&gt;
+    &lt;h6&gt;Third&lt;/h6&gt;
+    &lt;p&gt;And I'm the third grid column.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Combined that with a media query to drop back down to one column when your viewport gets small enough, and you&amp;#8217;ve successfully used CSS3 columns!&lt;/p&gt;
+
+&lt;h1 id='but_in_the_real_world'&gt;But in the REAL World&amp;#8230;&lt;/h1&gt;
+
+&lt;p&gt;OK, I cheated a bit. I used very short and simple content in my list items. When things aren&amp;#8217;t so clean you can end up with something like this:&lt;/p&gt;
+&lt;div class='grid-contain stack' id='curtain1'&gt;
+  &lt;div class='grid-col cols'&gt;
+    &lt;h6&gt;First w/ CSS Cols&lt;/h6&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Hi, I'm list item 1&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 2 and I'm obnoxiously long. Really, obnoxiously long.&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 3&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 4&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Ouch. Nobody likes a list item that breaks across columns. It&amp;#8217;s ok, we can fix that by giving the &lt;code&gt;li&lt;/code&gt; a style of &lt;code&gt;display: inline-block&lt;/code&gt;&lt;/p&gt;
+&lt;div class='grid-contain stack' id='curtain2'&gt;
+  &lt;div class='grid-col cols'&gt;
+    &lt;h6&gt;First w/ CSS Cols&lt;/h6&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Hi, I'm list item 1&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 2 and I'm obnoxiously long. Really, obnoxiously long.&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 3&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 4&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Better. The &lt;code&gt;display: inline-block&lt;/code&gt; prevents the &lt;code&gt;li&lt;/code&gt; from breaking over columns, but we&amp;#8217;ve lost our bullet points (which came from the default styling of an &lt;code&gt;li&lt;/code&gt; to &lt;code&gt;display: list-item&lt;/code&gt;). But it&amp;#8217;s cool cause we all know how to use &lt;code&gt;:before&lt;/code&gt; and &lt;code&gt;content&lt;/code&gt;, right?&lt;/p&gt;
+&lt;div class='grid-contain stack' id='curtain3'&gt;
+  &lt;div class='grid-col cols'&gt;
+    &lt;h6&gt;First w/ CSS Cols&lt;/h6&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Hi, I'm list item 1&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 2 and I'm obnoxiously long. Really, obnoxiously long.&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 3&lt;/li&gt;
+      &lt;li&gt;Hi, I'm list item 4&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;And there you have it. Nice, clean list columns with CSS. Just be sure your weary of the type/amount of content you use in columns. I swear, if I catch you using this on a list with 100 items&amp;#8230; If the user has to scroll when you are using columns, don&amp;#8217;t use columns.&lt;/p&gt;</description>
+        <pubDate>Mon, 11 Mar 2013 00:00:00 +0100</pubDate>
+        <link>http://andymcfee.com/2013/03/css-columns-in-the-wild/</link>
+        <guid isPermaLink="true">http://andymcfee.com/2013/03/css-columns-in-the-wild/</guid>
+      </item>
+    
+      <item>
         <title>Embedding CodePens into Jekyll Blogs</title>
         <description>&lt;p&gt;I love &lt;a href='http://codepen.io'&gt;CodePen&lt;/a&gt;. I also love &lt;a href='http://jekyllrb.com/'&gt;Jekyll&lt;/a&gt;. But apparently, they don&amp;#8217;t play well together out of the box. This was one of the few frustrations I had when moving my blog from WordPress to Jekyll. But fear not, for I have found a way to embed CodePens once more!&lt;/p&gt;
 

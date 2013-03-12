@@ -68,13 +68,18 @@
 
 .no-flexbox .grid-contain {
   width: 100%;
+  display: block;
   overflow: hidden;
   *zoom: 1; }
 .no-flexbox .grid-col {
-  float: left; }
+  float: left;
+  display: block;
+  width: 33.333%;
+  min-height: 200px; }
 .no-flexbox .grid-contain.stack .grid-col {
   display: block;
-  width: 100%; }
+  width: 100%;
+  min-height: 0; }
 
 .grid-contain h6 {
   line-height: 1rem;

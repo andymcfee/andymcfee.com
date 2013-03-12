@@ -8,7 +8,7 @@ custom_css:
   - cols.css
 status: published
 type: post
-published: false
+published: true
 comments: true
 ---
 

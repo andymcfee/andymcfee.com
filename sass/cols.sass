@@ -66,12 +66,17 @@
 .no-flexbox
   .grid-contain
     width: 100%
+    display: block
     +clearfix
   .grid-col
     float: left
+    display: block
+    width: 33.333%
+    min-height: 200px
   .grid-contain.stack .grid-col
     display: block
     width: 100%
+    min-height: 0
 
 
 
