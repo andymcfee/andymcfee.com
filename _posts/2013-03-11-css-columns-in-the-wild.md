@@ -99,6 +99,16 @@ Boom.  CSS Columns.
 
 Combined that with a media query to drop back down to one column when your viewport gets small enough, and you've successfully used CSS3 columns!
 
+**NOTE** CSS Columns are supported in:
+
+- IE10+
+- Chrome/Safari 
+- Firefox
+- iOS Safari
+- Android
+
+So sorry, IE9 and down. My demos are going to look a little odd to you.  
+
 But in the REAL World...
 =========================
 

@@ -88,6 +88,22 @@
 &lt;/div&gt;
 &lt;p&gt;Combined that with a media query to drop back down to one column when your viewport gets small enough, and you&amp;#8217;ve successfully used CSS3 columns!&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt; CSS Columns are supported in:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IE10+&lt;/li&gt;
+
+&lt;li&gt;Chrome/Safari&lt;/li&gt;
+
+&lt;li&gt;Firefox&lt;/li&gt;
+
+&lt;li&gt;iOS Safari&lt;/li&gt;
+
+&lt;li&gt;Android&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So sorry, IE9 and down. My demos are going to look a little odd to you.&lt;/p&gt;
+
 &lt;h1 id='but_in_the_real_world'&gt;But in the REAL World&amp;#8230;&lt;/h1&gt;
 
 &lt;p&gt;OK, I cheated a bit. I used very short and simple content in my list items. When things aren&amp;#8217;t so clean you can end up with something like this:&lt;/p&gt;
