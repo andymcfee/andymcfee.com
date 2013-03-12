@@ -1,7 +1,6 @@
 *.sublime-project
 *.sublime-workspace
 .sass-cache/
-*.css
 ideas.txt
 codekit-config.json
 Capfile
