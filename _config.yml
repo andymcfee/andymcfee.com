@@ -1,17 +1,15 @@
 url:        http://andymcfee.com
 baseurl:    /
-auto:       true
 
 #pygments:    true
 permalink:  /:year/:month/:title/
 #paginate:    5
 #paginate_file: posts.html
 
-exclude:    README.md, sass, ideas.txt, config, Capfile, config.rb, drafts
+exclude:    ['README.md', 'sass', 'ideas.txt', 'config', 'Capfile', 'config.rb', 'drafts']
 markdown:   maruku
 
 
 # RSS
 name: andymcfee.com
-description: Front-end, Design and UX
-url: http://andymcfee.com
+description: 'Front-end, Design and UX'
