@@ -540,28 +540,18 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 </IfModule>
 
 
-# Do not change the line below.
-RewriteEngine on
+RewriteEngine On
 
-# Change YOURDOMAIN.COM to be your main domain.
-RewriteCond %{HTTP_HOST} ^(www.)?andymcfee.com$
+# Map http://www.andymcfee.com to /dist.
+RewriteRule ^$ /andymcfee.com/dist/ [L]
 
-# Change 'SUBFOLDERPATH' to be the path to the folder you will use for your main domain. For instance: /MYREPO/JEKYLL/_SITE
-
-RewriteCond %{REQUEST_URI} !^/andymcfee.com/dist/
-
-# Don't change the lines below.
-
+# Map http://www.andymcfee.com/x to /jekyll/x unless there is a x in the web root.
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-
-# Change 'SUBFOLDERPATH' to be the path to the folder you will use for your main domain.
-
+RewriteCond %{REQUEST_URI} !^/andymcfee.com/dist/
 RewriteRule ^(.*)$ /andymcfee.com/dist/$1
 
-# Change YOURDOMAIN.COM to be your main domain.
-# Change 'SUBFOLDERPATH' to be the path to the folder you will use for your main domain.
-# Followed by / then the main file for your site, index.html, index.php, etc.
-
-RewriteCond %{HTTP_HOST} ^(www.)?andymcfee.com$
-RewriteRule ^(/)?$ andymcfee.com/dist/index.html [L]
+# Add trailing slash to directories within dist
+# This does not expose the internal URL.
+RewriteCond %{SCRIPT_FILENAME} -d
+RewriteRule ^dist/(.*[^/])$ http://andymcfee.com/$1/ [R=301]
