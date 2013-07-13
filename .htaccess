@@ -548,7 +548,7 @@ RewriteCond %{HTTP_HOST} ^(www.)?andymcfee.com$
 
 # Change 'SUBFOLDERPATH' to be the path to the folder you will use for your main domain. For instance: /MYREPO/JEKYLL/_SITE
 
-RewriteCond %{REQUEST_URI} !^/andymcfee.com/_site/
+RewriteCond %{REQUEST_URI} !^/andymcfee.com/dist/
 
 # Don't change the lines below.
 
@@ -557,11 +557,11 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 # Change 'SUBFOLDERPATH' to be the path to the folder you will use for your main domain.
 
-RewriteRule ^(.*)$ /andymcfee.com/_site/$1
+RewriteRule ^(.*)$ /andymcfee.com/dist/$1
 
 # Change YOURDOMAIN.COM to be your main domain.
 # Change 'SUBFOLDERPATH' to be the path to the folder you will use for your main domain.
 # Followed by / then the main file for your site, index.html, index.php, etc.
 
 RewriteCond %{HTTP_HOST} ^(www.)?andymcfee.com$
-RewriteRule ^(/)?$ andymcfee.com/_site/index.html [L]
+RewriteRule ^(/)?$ andymcfee.com/dist/index.html [L]
